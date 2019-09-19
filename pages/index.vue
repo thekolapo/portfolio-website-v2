@@ -1,72 +1,53 @@
 <template>
   <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        portfolio-website-v2
-      </h1>
-      <h2 class="subtitle">
-        My personal website
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+    <div class="section-name-about">
+      <div class="text-name">
+        Kolapo Oni
+      </div>
+      <div class="text-about">
+        I’m a web deisgner & developer based in Lagos, Nigeria with a passion 
+        for interactive design, aesthetics & smooth UIs. I have a good taste in 
+        <a href="https://spoti.fi/2mnFoGN" target="_blank">music</a> and take 
+        nice shots on <a href="https://bit.ly/2m4xi5C" target="_blank">VSCO</a> 
+        with my iPhone (mostly) & Canon 600D.
       </div>
     </div>
   </div>
 </template>
 
-<script>
-import Logo from '~/components/Logo.vue'
-
+<script> 
 export default {
   components: {
-    Logo
   }
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 .container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+  padding-top: 250px;
+  padding-bottom: 100px;
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+  .section-name-about {
+    padding: 0px 20px;
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+    .text-name {
+      font-size: 310px;
+      font-weight: normal;
+      text-transform: capitalize;
+    }
 
-.links {
-  padding-top: 15px;
+    .text-about {
+      font-size: 73px;
+      font-weight: 300;
+      margin-top: 180px;
+      padding-left: 30px;
+      
+      a {
+        color: black;
+        text-decoration: none;
+        color: rgb(255, 168, 61);
+      }
+    }
+  }
 }
 </style>
