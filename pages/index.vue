@@ -20,53 +20,77 @@
         Selected Work
       </div>
       <div class="project">
-        <div class="project__title">
+        <a 
+          href="" 
+          target="blank" 
+          class="project__title"
+        >
           01. Ose Games
-        </div>
+        </a>
         <div class="project__summary">
           Website for a mobile games development 
           company based in Lagos,Nigeria.
         </div>
       </div>
       <div class="project">
-        <div class="project__title">
+        <a 
+          href="" 
+          target="blank" 
+          class="project__title"
+        >
           02. Beautiful Experiences
-        </div>
+        </a>
         <div class="project__summary">
           Website for a mobile games development 
           company based in Lagos, Nigeria.
         </div>
       </div>
       <div class="project">
-        <div class="project__title">
-          03. GoMoney Early Access
-        </div>
+        <a 
+          href="" 
+          target="blank" 
+          class="project__title"
+        >
+          03. Gomoney Early Access
+        </a>
         <div class="project__summary">
           Website for a mobile games development 
           company based in Lagos, Nigeria.
         </div>
       </div>
       <div class="project">
-        <div class="project__title">
+        <a 
+          href="" 
+          target="blank" 
+          class="project__title"
+        >
           04. Pong
-        </div>
+        </a>
         <div class="project__summary">
           An interactive WebGL game.
         </div>
       </div>
       <div class="project">
-        <div class="project__title">
+        <a 
+          href="" 
+          target="blank" 
+          class="project__title"
+        >
           05. Fading
-        </div>
+        </a>
         <div class="project__summary">
           Website for a mobile games development 
           company based in Lagos, Nigeria.
         </div>
       </div>
       <div class="project">
-        <div class="project__title">
-          06. Portfolio v.1
-        </div>
+        <a 
+          href="" 
+          target="blank" 
+          class="project__title"
+        >
+          07. Portolio v.1
+        </a>
         <div class="project__summary">
           First version of my portfolio website
         </div>
@@ -186,10 +210,12 @@ $section-left-padding: 30px;
       }
 
       &__title {
-        cursor: pointer;
         transition: 0.7s ease-in-out;
         display: inline-block;
         text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
 
         &:hover {
           color: rgb(255, 168, 61);
