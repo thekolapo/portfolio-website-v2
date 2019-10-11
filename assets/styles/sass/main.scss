@@ -6,6 +6,7 @@ body {
   background-color: #d55533;
   margin: 0px;
   height: 100%;
+  transition: background-color 0.5s ease-in-out;
 
   &::-webkit-scrollbar {
     width: 0px;
