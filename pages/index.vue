@@ -8,10 +8,11 @@
         </div>
         <div class="text-about">
           I’m a web designer & developer based in Lagos, Nigeria with a passion
-          for interactive design, aesthetics & smooth UIs. I have a good taste in
+          for interactive design, aesthetics & smooth UIs. I objectively have a good taste in
           <a href="https://spoti.fi/2mnFoGN" target="_blank">music</a> and take nice 
           shots on <a href="https://bit.ly/2m4xi5C" target="_blank">VSCO</a> with 
-          my iPhone (mostly) & Canon 600D. I also curate nice illustrations on
+          my iPhone (mostly) & Canon 600D. I also curate niceties (mostly 
+          illustrations & interior design stuff) on
           <a href="https://bit.ly/2m4xi5C" target="_blank">Pinterest</a>.
         </div>
       </div>
@@ -64,7 +65,19 @@
             target="blank" 
             class="project__title"
           >
-            04. Pong
+            04. Gomoney Early Access (404)
+          </a>
+          <div class="project__summary">
+            Designed & developed an interactive 404 experience
+          </div>
+        </div>
+        <div class="project">
+          <a 
+            href="" 
+            target="blank" 
+            class="project__title"
+          >
+            05. Pong
           </a>
           <div class="project__summary">
             An interactive WebGL game.
@@ -76,7 +89,7 @@
             target="blank" 
             class="project__title"
           >
-            05. Fading
+            06. Fading
           </a>
           <div class="project__summary">
             Website for a mobile games development 
@@ -100,7 +113,8 @@
             class="project__title" 
             @click="launchWorkPage()"
           >
-            View More
+            View More 
+            <span class="arrow">&#x2192;</span>
           </div>
         </div>
       </div>
@@ -109,6 +123,9 @@
           Contact
         </div>
         <a href="">
+          Email
+        </a>
+        <a href="">
           twitter
         </a>
         <a href="">
@@ -116,9 +133,6 @@
         </a>
         <a href="">
           vsco
-        </a>
-        <a href="">
-          pinterest
         </a>
         <a href="">
           github
@@ -149,11 +163,11 @@ export default {
     launchWorkPage() {
       const overlay = this.$refs.overlay;
       overlay.style.zIndex = "10";
-      overlay.style.backgroundColor = "black";
+      overlay.style.backgroundColor = "rgb(255, 168, 61)";
 
       setTimeout(() => {
         this.$router.push("/work"); 
-      }, 720);
+      }, 700);
     }
   }
 }
@@ -203,7 +217,7 @@ $section-left-padding: 30px;
       font-weight: 300;
       margin-top: 180px;
       padding-left: $section-left-padding;
-      width: 97.5%;
+      width: 95.5%;
 
       a {
         color: black;
@@ -250,6 +264,13 @@ $section-left-padding: 30px;
         width: 80%;
       }
     }
+
+    .arrow {
+      display: inline-block;
+      margin-left: 0px;
+      transform: rotate(-40deg);
+      margin-left: -10px;
+    }
   }
 
   .section-contact {
@@ -271,7 +292,7 @@ $section-left-padding: 30px;
   .section-extra {
     margin-top: 180px;
     padding-left: $section-left-padding;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 300;
   }
 }
