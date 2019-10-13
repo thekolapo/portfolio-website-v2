@@ -5,8 +5,18 @@
         <img ref="img" v-bind:src="imgSrc" />
       </div>
     </div>
+    <div class="icon-cancel">
+      <nuxt-link 
+        to="/" 
+      >
+        &#10005;
+      </nuxt-link>
+    </div>
     <div id="container" ref="container"> 
       <div id="content">
+        <div class="page-title">
+          Selected Work
+        </div>
         <a 
           href="" 
           @mouseover='setImage("ose-games", $event.target)' 
@@ -49,7 +59,7 @@
         <br>
         <a 
           href="" 
-          @mouseover='setImage("", $event.target)' 
+          @mouseover='setImage("pong", $event.target)' 
           @mouseleave='removeImage()'
         >
           Pong
@@ -103,12 +113,22 @@ export default {
   },
   mounted() {
     document.body.style.backgroundColor = "rgb(255, 168, 61)";
-    new TimelineLite().to(
+    new TimelineLite()
+    .to(
       "#content", 1, 
       {
         opacity: 1, 
         ease: Power2.easeInOut
-      }
+      },
+      "#same-time"
+    )
+    .to(
+      ".icon-cancel", 1, 
+      {
+        opacity: 1, 
+        ease: Power2.easeInOut
+      },
+      "#same-time"
     );
     this.container = this.$refs.container;
     this.currentPos = window.pageYOffset;
@@ -148,7 +168,7 @@ export default {
       this.hovering = false;
       $("a").css(
         {
-          "opacity": 0.7,
+          "opacity": 0.8,
           "color": "black"
         }
       );
@@ -165,8 +185,35 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$text-opacity: 0.8;
+
 #work {
   background-color: rgb(255, 168, 61);
+  position: relative;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.icon-cancel {
+  position: fixed;
+  float: right;
+  right: 30px;
+  top: 20px;
+  z-index: 2;
+  opacity: 0;
+
+  a {
+    font-size: 50px;
+    opacity: 1 !important;
+    transition: 0.5s ease-in-out;
+
+    &:hover {
+      color: white !important;
+    }
+  }
 }
 
 #container {
@@ -174,7 +221,7 @@ export default {
   width: 100%;
   text-align: center;
   font-size: 100px;
-  padding-top: 250px;
+  padding-top: 100px;
   padding-bottom: 250px;
   transition: transform 0.25s;
   will-change: transform;
@@ -182,14 +229,20 @@ export default {
   #content {
     opacity: 0;
 
+    .page-title {
+      text-align: center;
+      margin-bottom: 120px;
+      font-size: 70px;
+      text-transform: capitalize;
+      text-decoration: underline;
+      opacity: $text-opacity;
+    }
+
     a {
-      text-decoration: none;
-      color: rgba(255, 255, 255, 0.5);
       display: inline-block;
       margin-bottom: 60px;
       text-transform: capitalize;
-      color: black;
-      opacity: 0.7;
+      opacity: $text-opacity;
       transition-property: opacity, color;
       transition-duration: 0.8s, 0.8s;
     }
