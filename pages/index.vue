@@ -13,7 +13,7 @@
           shots on <a href="https://bit.ly/2m4xi5C" target="_blank">VSCO</a> with 
           my iPhone (mostly) & Canon 600D. I also curate niceties (mostly 
           illustrations & interior design stuff) on
-          <a href="https://bit.ly/2m4xi5C" target="_blank">Pinterest</a>.
+          <a href="https://bit.ly/33HPKS8" target="_blank">Pinterest</a>.
         </div>
       </div>
       <div class="section-work">
