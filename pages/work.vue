@@ -51,10 +51,10 @@
         <br>
         <a 
           href="" 
-          @mouseover='setImage("", $event.target)' 
+          @mouseover='setImage("portfolio-v1", $event.target, "svg")' 
           @mouseleave='removeImage()'
         >
-          Porfolio V.1
+          Portfolio V.1
         </a>
         <br>
         <a 
@@ -67,7 +67,7 @@
         <br>
         <a 
           href="" 
-          @mouseover='setImage("", $event.target)' 
+          @mouseover='setImage("fading", $event.target, "svg")' 
           @mouseleave='removeImage()'
         >
           Fading
@@ -75,7 +75,7 @@
         <br>
         <a 
           href="" 
-          @mouseover='setImage("", $event.target)' 
+          @mouseover='setImage("blue-bird-ar", $event.target, "svg")' 
           @mouseleave='removeImage()'
         >
           Blue Bird AR
@@ -91,7 +91,7 @@
         <br>
         <a 
           href="" 
-          @mouseover='setImage("", $event.target)' 
+          @mouseover='setImage("left-or-right", $event.target, "svg")' 
           @mouseleave='removeImage()'
         >
           Left or Right
@@ -143,7 +143,7 @@ export default {
       this.currentPos = newPos;
       window.requestAnimationFrame(this.update);
     },
-    setImage(imgName, eventTarget) {
+    setImage(imgName, eventTarget, format) {
       this.hovering = true;
       $("a").css("opacity", 0.06);
       eventTarget.style.opacity = 0.9;
@@ -154,7 +154,8 @@ export default {
         if(!this.hovering) {
           return;
         }
-        this.imgSrc = require(`@/assets/images/${imgName}.png`);
+        let imgFormat = format || "png";
+        this.imgSrc = require(`@/assets/images/${imgName}.${imgFormat}`);
         new TimelineLite().to(
           "img", 0.6, 
           {
@@ -207,7 +208,7 @@ a {
 
   a {
     font-size: 50px;
-    opacity: 1 !important;
+    opacity: $text-opacity !important;
     transition: 0.5s ease-in-out;
 
     &:hover {

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="832px" viewBox="0 0 1440 832" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop HD</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#171A24" x="0" y="0" width="1440" height="832"></rect>
+        <g id="bird-in-flight-origami" transform="translate(673.000000, 416.500000) scale(-1, 1) translate(-673.000000, -416.500000) translate(507.000000, 298.000000)" fill="#FF9C5F">
+            <polygon id="Path" points="50.2235477 112 50.2235477 43.5578932 50.2235477 -2.84217094e-14 106.223548 56.0039804"></polygon>
+            <polygon id="Path" points="0.223547734 37 37.2235477 -2.84217094e-14 37.2235477 37"></polygon>
+            <polygon id="Path" points="170.223548 237 129.223548 196.137818 170.223548 160"></polygon>
+            <polygon id="Path" points="117.716285 184 54.2235477 128.355933 183.541827 9 331.223548 9"></polygon>
+        </g>
+        <polygon id="Triangle" fill="#E0986C" transform="translate(1288.681595, 692.025709) rotate(10.000000) translate(-1288.681595, -692.025709) " points="1288.6816 650.135878 1327.6816 733.915539 1249.6816 733.915539"></polygon>
+        <polygon id="Triangle" fill="#E0C26C" transform="translate(247.681595, 107.025709) rotate(10.000000) translate(-247.681595, -107.025709) " points="247.681595 65.1358783 286.681595 148.915539 208.681595 148.915539"></polygon>
+        <polygon id="Polygon" fill="#DF7D7D" points="1293.5 58 1344.38152 94.9675908 1324.94651 154.782409 1262.05349 154.782409 1242.61848 94.9675908"></polygon>
+        <polygon id="Polygon" fill="#ECBB72" transform="translate(164.559921, 696.459415) rotate(45.000000) translate(-164.559921, -696.459415) " points="164.559921 635.959415 222.09884 677.763887 200.120928 745.404944 128.998913 745.404944 107.021001 677.763887"></polygon>
+    </g>
+</svg>

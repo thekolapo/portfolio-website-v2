@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="832px" viewBox="0 0 1440 832" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop HD</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#171A24" x="0" y="0" width="1440" height="832"></rect>
+        <g id="Group" transform="translate(25.000000, 42.000000)" fill="#E0986C">
+            <polygon id="Triangle" transform="translate(694.506403, 359.506403) rotate(45.000000) translate(-694.506403, -359.506403) " points="694.506403 196.506403 849.006403 522.506403 540.006403 522.506403"></polygon>
+            <polygon id="Triangle" transform="translate(1275.245029, 67.271037) rotate(20.000000) translate(-1275.245029, -67.271037) " points="1275.24503 13.8812064 1325.24503 120.660867 1225.24503 120.660867"></polygon>
+            <polygon id="Triangle" transform="translate(165.245029, 651.271037) rotate(-135.000000) translate(-165.245029, -651.271037) " points="165.245029 597.881206 215.245029 704.660867 115.245029 704.660867"></polygon>
+            <polygon id="Triangle" transform="translate(70.107650, 90.107650) rotate(30.000000) translate(-70.107650, -90.107650) " points="70.1076503 36.7178197 120.10765 143.497481 20.1076503 143.497481"></polygon>
+            <polygon id="Triangle" transform="translate(1209.996185, 682.236950) rotate(10.000000) translate(-1209.996185, -682.236950) " points="1209.99619 628.847119 1259.99619 735.62678 1159.99619 735.62678"></polygon>
+        </g>
+    </g>
+</svg>
