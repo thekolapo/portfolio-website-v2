@@ -18,7 +18,8 @@
           Selected Work
         </div>
         <a 
-          href="" 
+          href="http://osegames.com/" 
+          target="_blank"
           @mouseover='setImage("ose-games", $event.target)' 
           @mouseleave='removeImage()'
         >
@@ -26,7 +27,8 @@
         </a>
         <br>
         <a 
-          href="" 
+          href="http://beautifulexperiences.xyz/" 
+          target="_blank"
           @mouseover='setImage("beautiful-experiences", $event.target)' 
           @mouseleave='removeImage()'
         >
@@ -34,7 +36,8 @@
         </a>
         <br>
         <a 
-          href="" 
+          href="https://early-access.gomoney.global" 
+          target="_blank"
           @mouseover='setImage("gomoney-early-access", $event.target)' 
           @mouseleave='removeImage()'
         >
@@ -42,7 +45,8 @@
         </a>
         <br>
         <a 
-          href="" 
+          href="https://early-access.gomoney.global/404" 
+          target="_blank"
           @mouseover='setImage("gomoney-404", $event.target)' 
           @mouseleave='removeImage()'
         >
@@ -50,7 +54,8 @@
         </a>
         <br>
         <a 
-          href="" 
+          href="https://v1.thekolapo.com" 
+          target="_blank"
           @mouseover='setImage("portfolio-v1", $event.target, "svg")' 
           @mouseleave='removeImage()'
         >
@@ -58,7 +63,8 @@
         </a>
         <br>
         <a 
-          href="" 
+          href="https://pong.thekolapo.com" 
+          target="_blank"
           @mouseover='setImage("pong", $event.target)' 
           @mouseleave='removeImage()'
         >
@@ -66,7 +72,8 @@
         </a>
         <br>
         <a 
-          href="" 
+          href="https://fading.thekolapo.com" 
+          target="_blank"
           @mouseover='setImage("fading", $event.target, "svg")' 
           @mouseleave='removeImage()'
         >
@@ -74,7 +81,8 @@
         </a>
         <br>
         <a 
-          href="" 
+          href="https://www.youtube.com/watch?v=0Tv_wVSeEl4"
+          target="_blank"
           @mouseover='setImage("blue-bird-ar", $event.target, "svg")' 
           @mouseleave='removeImage()'
         >
@@ -82,7 +90,8 @@
         </a>
         <br>
         <a 
-          href="" 
+          href="https://www.youtube.com/watch?v=9t2TXkWsrKw"
+          target="_blank"
           @mouseover='setImage("dancing-man-ar", $event.target)' 
           @mouseleave='removeImage()'
         >
@@ -90,7 +99,8 @@
         </a>
         <br>
         <a 
-          href="" 
+          href="https://bit.ly/2qg4szX"
+          target="_blank"
           @mouseover='setImage("left-or-right", $event.target, "svg")' 
           @mouseleave='removeImage()'
         >

@@ -22,7 +22,7 @@
         </div>
         <div class="project">
           <a 
-            href="" 
+            href="http://osegames.com" 
             target="blank" 
             class="project__title"
           >
@@ -35,7 +35,7 @@
         </div>
         <div class="project">
           <a 
-            href="" 
+            href="http://beautifulexperiences.xyz" 
             target="blank" 
             class="project__title"
           >
@@ -48,7 +48,7 @@
         </div>
         <div class="project">
           <a 
-            href="" 
+            href="https://early-access.gomoney.global" 
             target="blank" 
             class="project__title"
           >
@@ -61,7 +61,7 @@
         </div>
         <div class="project">
           <a 
-            href="" 
+            href="https://early-access.gomoney.global/404" 
             target="blank" 
             class="project__title"
           >
@@ -73,7 +73,7 @@
         </div>
         <div class="project">
           <a 
-            href="" 
+            href="https://pong.thekolapo.com" 
             target="blank" 
             class="project__title"
           >
@@ -85,7 +85,7 @@
         </div>
         <div class="project">
           <a 
-            href="" 
+            href="https://fading.thekolapo.com" 
             target="blank" 
             class="project__title"
           >
@@ -98,11 +98,11 @@
         </div>
         <div class="project">
           <a 
-            href="" 
+            href="https://v1.thekolapo.com" 
             target="blank" 
             class="project__title"
           >
-            07. Portolio v.1
+            07. Portfolio v.1
           </a>
           <div class="project__summary">
             First version of my portfolio website
@@ -140,7 +140,7 @@
       </div>
       <div class="section-extra">
         This life I live is all 
-        for the aesthetics ✌🏾
+        for the aesthetics 🤘🏾
       </div>
     </div>
   </div>
