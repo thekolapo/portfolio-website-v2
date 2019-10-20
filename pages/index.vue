@@ -122,19 +122,34 @@
         <div class="text-title">
           Contact
         </div>
-        <a href="">
+        <a 
+          href="mailto:onikolapo@gmail.com" 
+          target="_blank"
+        >
           Email
         </a>
-        <a href="">
+        <a 
+          href="https://twitter.com/kolapo_"
+          target="_blank"
+        >
           twitter
         </a>
-        <a href="">
+        <a 
+          href="https://www.instagram.com/thekolapo/"
+          target="_blank"
+        >
           instagram
         </a>
-        <a href="">
+        <a 
+          href="https://vsco.co/thekolapo/images"
+          target="_blank"
+        >
           vsco
         </a>
-        <a href="">
+        <a 
+          href="https://github.com/thekolapo"
+          target="_blank"
+        >
           github
         </a>
       </div>
@@ -196,6 +211,16 @@ $section-left-padding: 30px;
     text-decoration: underline;
   }
 
+  a {
+    text-decoration: none;
+    color: black;
+    transition: 0.7s ease-in-out;
+     
+    &:hover {
+      color: rgb(255, 168, 61);
+    }
+  }
+
   #shape-circle {
     width: 20px;
     height: 20px;
@@ -220,7 +245,6 @@ $section-left-padding: 30px;
       width: 95.5%;
 
       a {
-        color: black;
         text-decoration: none;
         color: rgb(255, 168, 61);
       }
@@ -248,8 +272,6 @@ $section-left-padding: 30px;
         transition: 0.7s ease-in-out;
         display: inline-block;
         text-transform: uppercase;
-        text-decoration: none;
-        color: black;
         cursor: pointer;
 
         &:hover {
@@ -280,9 +302,7 @@ $section-left-padding: 30px;
 
     a {
       display: inline-block;
-      font-size: 55px;
-      color: black;
-      text-decoration: none;
+      font-size: 55px;      
       text-transform: uppercase;
       margin-bottom: 30px;
       font-weight: 300;
