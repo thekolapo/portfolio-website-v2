@@ -29,7 +29,7 @@
             01. Ose Games
           </a>
           <div class="project__summary">
-            Website for a mobile games development 
+            Website of a mobile games development 
             company based in Lagos,Nigeria.
           </div>
         </div>
@@ -42,8 +42,8 @@
             02. Beautiful Experiences
           </a>
           <div class="project__summary">
-            Website for a mobile games development 
-            company based in Lagos, Nigeria.
+            A curation of awesome web and 
+            interactive experiences.
           </div>
         </div>
         <div class="project">
@@ -55,8 +55,8 @@
             03. Gomoney Early Access
           </a>
           <div class="project__summary">
-            Website for a mobile games development 
-            company based in Lagos, Nigeria.
+            Early access site for a digital bank 
+            based in Lagos, Nigeria.
           </div>
         </div>
         <div class="project">
@@ -68,7 +68,8 @@
             04. Gomoney Early Access (404)
           </a>
           <div class="project__summary">
-            Designed & developed an interactive 404 experience
+           An interactive 404 experience for 
+           Gomoney early access page.
           </div>
         </div>
         <div class="project">
@@ -80,7 +81,7 @@
             05. Pong
           </a>
           <div class="project__summary">
-            An interactive WebGL game.
+            A 2D pong WebGL game.
           </div>
         </div>
         <div class="project">
@@ -92,8 +93,8 @@
             06. Fading
           </a>
           <div class="project__summary">
-            Website for a mobile games development 
-            company based in Lagos, Nigeria.
+            A minimalist 2D game where you traverse 
+            the troubled mind of a man.
           </div>
         </div>
         <div class="project">
@@ -105,7 +106,7 @@
             07. Portfolio v.1
           </a>
           <div class="project__summary">
-            First version of my portfolio website
+            First version of my portfolio website.
           </div>
         </div>
         <div class="project">
@@ -231,14 +232,15 @@ $section-left-padding: 30px;
 
   .section-name-about {
     .text-name {
-      font-size: 310px;
-      font-size: 250px;
+      // font-size: 250px;
+      font-size: 14.88vw;
       font-weight: normal;
       text-transform: uppercase;
     }
 
     .text-about {
       font-size: 73px;
+      font-size: 4.345vw;
       font-weight: 300;
       margin-top: 180px;
       padding-left: $section-left-padding;
