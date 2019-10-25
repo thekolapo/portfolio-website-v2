@@ -69,7 +69,7 @@
           </a>
           <div class="project__summary">
            An interactive 404 experience for 
-           Gomoney early access page.
+           Gomoney early access website.
           </div>
         </div>
         <div class="project">
@@ -314,6 +314,53 @@ $section-left-padding: 1.786vw;
     padding-left: $section-left-padding;
     font-size: 2.8571vw;
     font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding-bottom: 20vw;
+
+    .section-name-about {
+      .text-name {
+        font-size: 15vw;
+      }
+
+      .text-about {
+        font-size: 6.6vw;
+        margin-top: 10.714vw;
+        padding-left: $section-left-padding;
+        width: 97%;
+      }
+    }
+
+    .section-work {
+      font-size: 10vw;
+      
+      .project {
+        font-size: 6.2vw;
+        margin-bottom: 7vw;
+
+        &__summary {
+          font-size: 5.1vw;
+          margin-top: 1.5vw;
+          width: 98%;
+        }
+      }
+    }
+
+    .section-contact {
+      font-size: 9vw;
+
+      a {
+        font-size: 5vw;
+      }
+    }
+
+    .section-extra {
+      margin-top: 13vw;
+      font-size: 4.7vw;
+    }
   }
 }
 </style>
