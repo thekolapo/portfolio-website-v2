@@ -190,9 +190,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// $section-top-margin: 250px;
-// $section-left-padding: 30px;
-
 $section-top-margin: 14.881vw;
 $section-left-padding: 1.786vw;
 
@@ -206,9 +203,7 @@ $section-left-padding: 1.786vw;
 }
 
 .container {
-  // padding: 250px 20px;
   padding: 14.881vw 1.191vw;
-  // padding-bottom: 100px;
   padding-bottom: 5.9524vw;
   opacity: 0;
   // transition: opacity 1s ease-in;
@@ -220,7 +215,7 @@ $section-left-padding: 1.786vw;
   a {
     text-decoration: none;
     color: black;
-    transition: 0.7s ease-in-out;
+    transition: color 0.7s ease-in-out;
      
     &:hover {
       color: rgb(255, 168, 61);
@@ -237,17 +232,14 @@ $section-left-padding: 1.786vw;
 
   .section-name-about {
     .text-name {
-      // font-size: 250px;
       font-size: 14.88vw;
       font-weight: normal;
       text-transform: uppercase;
     }
 
     .text-about {
-      // font-size: 73px;
       font-size: 4.345vw;
       font-weight: 300;
-      // margin-top: 180px;
       margin-top: 10.714vw;
       padding-left: $section-left-padding;
       width: 95.5%;
@@ -260,33 +252,27 @@ $section-left-padding: 1.786vw;
   }
 
   .section-work {
-    // font-size: 150px;
     font-size: 8.929vw;
     padding-left: $section-left-padding;
     margin-top: $section-top-margin;
 
     .text-title {
-      // margin-bottom: 60px;
       margin-bottom: 3.571vw;
     }
 
     .project {
-      // font-size: 73px;
-      // margin-bottom: 90px;
-
       font-size: 4.345vw;
       margin-bottom: 5.357vw;
 
       &:last-child {
-        // margin-bottom: 0px;
         margin-bottom: 0vw;
       }
 
       &__title {
-        transition: 0.7s ease-in-out;
         display: inline-block;
         text-transform: uppercase;
         cursor: pointer;
+        transition: color 0.7s ease-in-out;
 
         &:hover {
           color: rgb(255, 168, 61);
@@ -294,8 +280,6 @@ $section-left-padding: 1.786vw;
       }
 
       &__summary {
-        // font-size: 55px;
-        // margin-top: 25px;
         font-size: 3.274vw;
         margin-top: 1.488vw;
         font-weight: 300;
@@ -305,10 +289,8 @@ $section-left-padding: 1.786vw;
 
     .arrow {
       display: inline-block;
-      // margin-left: 0px;
       margin-left: 0vw;
       transform: rotate(-40deg);
-      // margin-left: -10px;
       margin-left: -0.5952vw;
     }
   }
@@ -316,37 +298,22 @@ $section-left-padding: 1.786vw;
   .section-contact {
     margin-top: $section-top-margin;
     padding-left: $section-left-padding;
-    // font-size: 120px;
     font-size: 7.1429vw;
 
     a {
       display: inline-block;
-      // font-size: 55px;  
       font-size: 3.2738vw;    
       text-transform: uppercase;
-      // margin-bottom: 30px;
       margin-bottom: 1.7857vw;
       font-weight: 300;
     }
   }
 
   .section-extra {
-    // margin-top: 180px;
     margin-top: 10.7143vw;
     padding-left: $section-left-padding;
-    // font-size: 48px;
     font-size: 2.8571vw;
     font-weight: 300;
-  }
-}
-
-@media screen and (max-width: 1560px) {
-  .container {
-    .section-name-about {
-      .text-name {
-        // font-size: 200px;
-      }
-    }
   }
 }
 </style>
