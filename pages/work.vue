@@ -211,8 +211,8 @@ a {
 .icon-cancel {
   position: fixed;
   float: right;
-  right: 30px;
-  top: 20px;
+  right: 1.786vw;
+  top: 1.191vw;
   z-index: 2;
   opacity: 0;
 
@@ -231,9 +231,9 @@ a {
   min-height: 100vh;
   width: 100%;
   text-align: center;
-  font-size: 100px;
-  padding-top: 100px;
-  padding-bottom: 250px;
+  font-size: 5.952vw;
+  padding-top: 5.952vw;
+  padding-bottom: 14.881vw;
   transition: transform 0.25s;
   will-change: transform;
 
@@ -242,8 +242,8 @@ a {
 
     .page-title {
       text-align: center;
-      margin-bottom: 120px;
-      font-size: 70px;
+      margin-bottom: 7.143vw;
+      font-size: 4.167vw;
       text-transform: capitalize;
       text-decoration: underline;
       opacity: $text-opacity;
@@ -280,6 +280,51 @@ a {
       object-fit: cover;
       opacity: 0;
     }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .icon-cancel a {
+    font-size: 40px;
+  }
+
+  #container {
+    #content a {
+      margin-bottom: 50px;
+    }  
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .icon-cancel {
+    right: 12px;
+    top: 10px;
+
+    a {
+      font-size: 35px;
+    }
+  }
+
+  #container {
+    padding-top: 70px;
+    padding-bottom: 0px;
+    font-size: 6.9vw;
+
+    #content {
+      .page-title {
+        font-size: 5.8vw;
+      }
+
+      a {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #container #content {
+    font-weight: 500;
   }
 }
 </style>
