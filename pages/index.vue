@@ -81,7 +81,7 @@
             05. Pong
           </a>
           <div class="project__summary">
-            A 2D pong WebGL game.
+            A 2D WebGL pong game.
           </div>
         </div>
         <div class="project">
@@ -317,7 +317,7 @@ $section-left-padding: 1.786vw;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .container {
     padding-bottom: 20vw;
 
