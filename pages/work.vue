@@ -118,11 +118,17 @@ export default {
       currentPos: null,
       container: "",
       imgSrc: null,
-      hovering: false
+      hovering: false,
+      isMobile: false
     }
   },
   mounted() {
     document.body.style.backgroundColor = "rgb(255, 168, 61)";
+    
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      this.isMobile = true;
+    }
+    
     new TimelineLite()
     .to(
       "#content", 1, 
@@ -154,10 +160,13 @@ export default {
       window.requestAnimationFrame(this.update);
     },
     setImage(imgName, eventTarget, format) {
+      if(this.isMobile) {
+        return;
+      }
+
       this.hovering = true;
       $("a").css("opacity", 0.06);
       eventTarget.style.opacity = 0.9;
-
       eventTarget.style.color = "white";
 
       setTimeout(() => {
