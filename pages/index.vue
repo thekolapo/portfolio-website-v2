@@ -235,6 +235,7 @@ $section-left-padding: 1.786vw;
       font-size: 14.88vw;
       font-weight: normal;
       text-transform: uppercase;
+      padding-left: 0.6vw;
     }
 
     .text-about {
