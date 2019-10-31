@@ -13,7 +13,8 @@ export default {
     ],
     script: [
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js' },
-      { src: 'https://code.jquery.com/jquery-3.4.1.min.js'}
+      { src: 'https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js' },
+      { src: 'https://code.jquery.com/jquery-3.4.1.min.js'},
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
