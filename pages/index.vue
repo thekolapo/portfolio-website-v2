@@ -7,12 +7,12 @@
           Kolapo Oni
         </div>
         <div class="text-about">
-          I’m a web designer & developer based in Lagos, Nigeria with a passion
-          for interactive design, aesthetics & smooth UIs. I objectively have a good taste in
-          <a href="https://spoti.fi/2mnFoGN" target="_blank">music</a> and take nice 
+          I’m a web designer & developer based in Lagos, Nigeria, with a passion
+          for interactive design, aesthetics & smooth UIs. I have objectively good taste in
+          <a href="https://spoti.fi/2mnFoGN" target="_blank">music</a>, and I take great 
           shots on <a href="https://bit.ly/2m4xi5C" target="_blank">VSCO</a> with 
-          my iPhone (mostly) & Canon 600D. I also curate niceties (mostly 
-          illustrations & interior design stuff) on
+          my iPhone <span v-if="!isMobile">(mostly)</span> & Canon 600D. 
+          I also curate niceties (majorly illustrations & interior design stuff) on
           <a href="https://bit.ly/33HPKS8" target="_blank">Pinterest</a>.
         </div>
       </div>
@@ -94,7 +94,7 @@
           </a>
           <div class="project__summary">
             A minimalist 2D game where you traverse 
-            the troubled mind of a man.
+            the mind of a troubled man.
           </div>
         </div>
         <div class="project">
@@ -155,8 +155,7 @@
         </a>
       </div>
       <div class="section-extra">
-        This life I live is all 
-        for the aesthetics 🤘🏾
+        I live for the aesthetics 🤘🏾
       </div>
     </div>
   </div>
@@ -164,9 +163,18 @@
 
 <script>
 export default {
-  components: {},
+  data() {
+    return {
+      isMobile: false
+    }
+  },
   mounted() {
     document.body.style.backgroundColor = "#d55533";
+
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      this.isMobile = true; 
+    }
+
     new TimelineLite().to(
       ".container", 0.66, 
       {
@@ -313,7 +321,7 @@ $section-left-padding: 1.786vw;
   .section-extra {
     margin-top: 10.7143vw;
     padding-left: $section-left-padding;
-    font-size: 2.8571vw;
+    font-size: 2.9vw;
     font-weight: 300;
   }
 }
@@ -360,7 +368,7 @@ $section-left-padding: 1.786vw;
 
     .section-extra {
       margin-top: 13vw;
-      font-size: 4.7vw;
+      font-size: 4.8vw;
     }
   }
 }
