@@ -30,7 +30,7 @@
           </a>
           <div class="project__summary">
             Website of a mobile games development 
-            company based in Lagos,Nigeria.
+            company based in Lagos, Nigeria.
           </div>
         </div>
         <div class="project">
