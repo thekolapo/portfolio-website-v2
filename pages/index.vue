@@ -12,7 +12,7 @@
           <a href="https://spoti.fi/2mnFoGN" target="_blank">music</a>, and I take great 
           shots on <a href="https://bit.ly/2m4xi5C" target="_blank">VSCO</a> with 
           my iPhone <span v-if="!isMobile">(mostly)</span> & Canon 600D. 
-          I also curate niceties (majorly illustrations & interior design stuff) on
+          I also curate niceties (majorly illustrations & interior design images) on
           <a href="https://bit.ly/33HPKS8" target="_blank">Pinterest</a>.
         </div>
       </div>
