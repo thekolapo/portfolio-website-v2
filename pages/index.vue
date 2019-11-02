@@ -369,7 +369,7 @@ $section-left-padding: 1.786vw;
 
     .section-extra {
       margin-top: 13vw;
-      font-size: 4.8vw;
+      font-size: 5.4vw;
     }
   }
 }
