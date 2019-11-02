@@ -336,10 +336,11 @@ $section-left-padding: 1.786vw;
       }
 
       .text-about {
-        font-size: 6.6vw;
+        font-size: 6.5vw;
         margin-top: 10.714vw;
         padding-left: $section-left-padding;
         width: 97%;
+        line-height: 1.3;
       }
     }
 
