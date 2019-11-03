@@ -8,15 +8,30 @@ export default {
     title: 'Kolapo Oni - Interactive Designer',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'keywords', content: 'Kolapo Oni, Kolapo, Oni' },
-      { property: 'og:title', content: 'Kolapo Oni - Interactive Designer' },
-      { property: 'og:url', content: 'https://thekolapo.com' },
+      { 
+        name: 'viewport', 
+        content: 'width=device-width, initial-scale=1' 
+      },
+      { 
+        name: 'keywords', 
+        content: 'Kolapo Oni, Kolapo, Oni' 
+      },
+      { 
+        property: 'og:title', 
+        content: 'Kolapo Oni - Interactive Designer' 
+      },
+      { 
+        property: 'og:url', 
+        content: 'https://thekolapo.com' 
+      },
       { 
         property: "og:image", 
         content: "https://res.cloudinary.com/daitiebum/image/upload/v1572545139/portfolio-website-v2/home_screenshot.png" 
       },
-      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 
+        'twitter:card',
+        content: 'summary_large_image' 
+      },
       { 
         hid: 'description', 
         name: 'description', 
