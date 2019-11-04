@@ -63,7 +63,7 @@
         </a>
         <br>
         <a 
-          href="https://pong.thekolapo.com" 
+          href="https://pong-game.surge.sh/" 
           target="_blank"
           @mouseover='setImage("pong", $event.target)' 
           @mouseleave='removeImage()'
