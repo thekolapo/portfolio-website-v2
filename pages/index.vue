@@ -157,6 +157,15 @@
           </div>
         </div>
       </div>
+      <div class="section-recognitions">
+        <div class="text-title">
+          Recognitions
+        </div>
+       <div class="recognition">
+         <div class="platform">CSS Light</div>
+         <div class="award">Featured of the Day x1</div>
+       </div>
+      </div>
       <div class="section-contact">
         <div class="text-title">
           Contact
@@ -342,6 +351,7 @@ $section-left-padding: 1.786vw;
     }
   }
 
+  .section-recognitions,
   .section-contact {
     margin-top: $section-top-margin;
     padding-left: $section-left-padding;
@@ -353,6 +363,26 @@ $section-left-padding: 1.786vw;
       text-transform: uppercase;
       margin-bottom: 1.7857vw;
       font-weight: 300;
+    }
+  }
+
+  .section-recognitions {
+    .text-title {
+      margin-bottom: 3.571vw;
+    }
+
+    .recognition {
+      font-size: 3.2738vw;
+
+      .platform {
+        text-transform: uppercase;
+        font-size: calc(3.2738vw + 5px);
+      }
+
+      .award {
+        font-weight: 300;
+        margin-top: 1.4vw;
+      }
     }
   }
 
@@ -393,6 +423,21 @@ $section-left-padding: 1.786vw;
           font-size: 5.1vw;
           margin-top: 1.5vw;
           width: 98%;
+        }
+      }
+    }
+
+    .section-recognitions {
+      font-size: 9vw;
+
+      .recognition {
+        .platform {
+          font-size: 6.2vw;
+        }
+
+        .award {
+          font-size: 5vw;
+          margin-top: 1.5vw;
         }
       }
     }
