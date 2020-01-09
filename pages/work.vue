@@ -27,6 +27,15 @@
         </a>
         <br>
         <a 
+          href="https://2019.thekolapo.com/" 
+          target="_blank"
+          @mouseover='setImage("2019-year-in-review", $event.target)' 
+          @mouseleave='removeImage()'
+        >
+          2019 Year In Review
+        </a>
+        <br>
+        <a 
           href="http://beautifulexperiences.xyz/" 
           target="_blank"
           @mouseover='setImage("beautiful-experiences", $event.target)' 
@@ -38,7 +47,7 @@
         <a 
           href="https://early-access.gomoney.global" 
           target="_blank"
-          @mouseover='setImage("gomoney-early-access", $event.target)' 
+          @mouseover='setImage("gomoney-early-access", $event.target, "svg")' 
           @mouseleave='removeImage()'
         >
           Gomoney Early Access
@@ -51,6 +60,24 @@
           @mouseleave='removeImage()'
         >
           Gomoney Early Access (404)
+        </a>
+        <br>
+        <a 
+          href="https://pay.gomoney.global/?id=08124390729" 
+          target="_blank"
+          @mouseover='setImage("gomoney-payment-portal", $event.target)' 
+          @mouseleave='removeImage()'
+        >
+          Gomoney Payment Portal
+        </a>
+        <br>
+        <a 
+          href="https://blog.gomoney.global/" 
+          target="_blank"
+          @mouseover='setImage("gomoney-blog", $event.target, "svg")' 
+          @mouseleave='removeImage()'
+        >
+          Gomoney Blog
         </a>
         <br>
         <a 

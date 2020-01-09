@@ -14,7 +14,7 @@ export default {
       },
       { 
         name: 'keywords', 
-        content: 'Kolapo Oni, Kolapo, Oni' 
+        content: 'Kolapo Oni, Kolapo, Oni'
       },
       { 
         property: 'og:title', 

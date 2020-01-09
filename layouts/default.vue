@@ -17,12 +17,15 @@ export default {
     preloadWorkImages() {
       let images = []
       let imgNames = [
+        '2019-year-in-review.png',
         'beautiful-experiences.png',
         'blue-bird-ar.svg',
         'dancing-man-ar.png',
         'fading.svg',
         'gomoney-404.png',
-        'gomoney-early-access.png',
+        'gomoney-blog.svg',
+        'gomoney-early-access.svg',
+        'gomoney-payment-portal.png',
         'left-or-right.svg',
         'ose-games.png',
         'pong.png',

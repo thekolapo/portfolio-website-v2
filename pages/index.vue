@@ -14,6 +14,7 @@
           my iPhone <span v-if="!isMobile">(mostly)</span> & Canon 600D. 
           I also curate niceties (majorly illustrations & interior design images) on
           <a href="https://bit.ly/33HPKS8" target="_blank">Pinterest</a>.
+          Currently a member of Awwwards Young Jury.
         </div>
       </div>
       <div class="section-work">
@@ -48,11 +49,23 @@
         </div>
         <div class="project">
           <a 
+            href="https://2019.thekolapo.com/" 
+            target="blank" 
+            class="project__title"
+          >
+            03. 2019 Year in Review
+          </a>
+          <div class="project__summary">
+            My Year in Review for 2019.
+          </div>
+        </div>
+        <div class="project">
+          <a 
             href="https://early-access.gomoney.global" 
             target="blank" 
             class="project__title"
           >
-            03. Gomoney Early Access
+            04. Gomoney Early Access
           </a>
           <div class="project__summary">
             Early access site for a digital bank 
@@ -65,7 +78,7 @@
             target="blank" 
             class="project__title"
           >
-            04. Gomoney Early Access (404)
+            05. Gomoney Early Access (404)
           </a>
           <div class="project__summary">
            An interactive 404 experience for 
@@ -74,11 +87,48 @@
         </div>
         <div class="project">
           <a 
+            href="https://blog.gomoney.global/" 
+            target="blank" 
+            class="project__title"
+          >
+            06. Gomoney Blog
+          </a>
+          <div class="project__summary">
+            Blog for Gomoney.
+          </div>
+        </div>
+        <div class="project">
+          <a 
+            href="https://pay.gomoney.global/?id=08124390729" 
+            target="blank" 
+            class="project__title"
+          >
+            07. Gomoney Payment Portal
+          </a>
+          <div class="project__summary">
+            A way to send money to Gomoney users 
+            using their unique payment link.
+          </div>
+        </div>
+        <div class="project">
+          <a 
+            href="https://v1.thekolapo.com" 
+            target="blank" 
+            class="project__title"
+          >
+            08. Portfolio v.1
+          </a>
+          <div class="project__summary">
+            First version of my portfolio website.
+          </div>
+        </div>
+        <div class="project">
+          <a 
             href="https://pong.thekolapo.com" 
             target="blank" 
             class="project__title"
           >
-            05. Pong
+            09. Pong
           </a>
           <div class="project__summary">
             A 2D WebGL pong game.
@@ -90,23 +140,11 @@
             target="blank" 
             class="project__title"
           >
-            06. Fading
+            10. Fading
           </a>
           <div class="project__summary">
             A minimalist 2D game where you traverse 
             the mind of a troubled man.
-          </div>
-        </div>
-        <div class="project">
-          <a 
-            href="https://v1.thekolapo.com" 
-            target="blank" 
-            class="project__title"
-          >
-            07. Portfolio v.1
-          </a>
-          <div class="project__summary">
-            First version of my portfolio website.
           </div>
         </div>
         <div class="project">
