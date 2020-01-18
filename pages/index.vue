@@ -153,8 +153,16 @@
           Recognitions
         </div>
         <div class="recognition">
+          <div class="platform">Typewolf</div>
+          <a href="https://bit.ly/2uWtsQx" target="blank" class="award">
+            Site of the Day - 2019 Year In Review
+          </a>
+        </div>
+        <div class="recognition">
           <div class="platform">CSS Light</div>
-          <div class="award">Featured of the Day x1</div>
+          <a href="https://bit.ly/38nq4gd" target="blank" class="award">
+            Featured of the Day - Portfolio V.1
+          </a>
         </div>
       </div>
       <div class="section-contact">
@@ -351,6 +359,11 @@ $section-left-padding: 1.786vw;
 
     .recognition {
       font-size: 3.2738vw;
+      margin-bottom: 4.6vw;
+
+      & > :last-child {
+        margin-bottom: 0;
+      }
 
       .platform {
         text-transform: uppercase;
@@ -360,6 +373,7 @@ $section-left-padding: 1.786vw;
       .award {
         font-weight: 300;
         margin-top: 1.4vw;
+        text-transform: none;
       }
     }
   }
@@ -409,6 +423,8 @@ $section-left-padding: 1.786vw;
       font-size: 9vw;
 
       .recognition {
+        margin-bottom: 6.2vw;
+
         .platform {
           font-size: 6.2vw;
         }
