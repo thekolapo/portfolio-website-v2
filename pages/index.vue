@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="overlay" ref="overlay"/>
+    <div id="overlay" ref="overlay" />
     <div class="container" ref="container">
       <div class="section-name-about">
         <div class="text-name">
@@ -8,11 +8,13 @@
         </div>
         <div class="text-about">
           I’m a web designer & developer based in Lagos, Nigeria, with a passion
-          for interactive design, aesthetics & smooth UIs. I have objectively good taste in
-          <a href="https://spoti.fi/2mnFoGN" target="_blank">music</a>, and I take great 
-          shots on <a href="https://bit.ly/2m4xi5C" target="_blank">VSCO</a> with 
-          my iPhone <span v-if="!isMobile">(mostly)</span> & Canon 600D. 
-          I also curate niceties (majorly illustrations & interior design images) on
+          for interactive design, aesthetics & smooth UIs. I have objectively
+          good taste in
+          <a href="https://spoti.fi/2mnFoGN" target="_blank">music</a>, and I
+          take great shots on
+          <a href="https://bit.ly/2m4xi5C" target="_blank">VSCO</a> with my
+          iPhone <span v-if="!isMobile">(mostly)</span> & Canon 600D. I also
+          curate niceties (majorly illustrations & interior design images) on
           <a href="https://bit.ly/33HPKS8" target="_blank">Pinterest</a>.
           Currently a member of Awwwards Young Jury.
         </div>
@@ -22,35 +24,30 @@
           Selected Work
         </div>
         <div class="project">
-          <a 
-            href="http://osegames.com" 
-            target="blank" 
-            class="project__title"
-          >
+          <a href="http://osegames.com" target="blank" class="project__title">
             01. Ose Games
           </a>
           <div class="project__summary">
-            Website of a mobile games development 
-            company based in Lagos, Nigeria.
+            Website of a mobile games development company based in Lagos,
+            Nigeria.
           </div>
         </div>
         <div class="project">
-          <a 
-            href="http://beautifulexperiences.xyz" 
-            target="blank" 
+          <a
+            href="http://beautifulexperiences.xyz"
+            target="blank"
             class="project__title"
           >
             02. Beautiful Experiences
           </a>
           <div class="project__summary">
-            A curation of awesome web and 
-            interactive experiences.
+            A curation of awesome web and interactive experiences.
           </div>
         </div>
         <div class="project">
-          <a 
-            href="https://2019.thekolapo.com/" 
-            target="blank" 
+          <a
+            href="https://2019.thekolapo.com/"
+            target="blank"
             class="project__title"
           >
             03. 2019 Year in Review
@@ -60,35 +57,33 @@
           </div>
         </div>
         <div class="project">
-          <a 
-            href="https://early-access.gomoney.global" 
-            target="blank" 
+          <a
+            href="https://early-access.gomoney.global"
+            target="blank"
             class="project__title"
           >
             04. Gomoney Early Access
           </a>
           <div class="project__summary">
-            Early access site for a digital bank 
-            based in Lagos, Nigeria.
+            Early access site for a digital bank based in Lagos, Nigeria.
           </div>
         </div>
         <div class="project">
-          <a 
-            href="https://early-access.gomoney.global/404" 
-            target="blank" 
+          <a
+            href="https://early-access.gomoney.global/404"
+            target="blank"
             class="project__title"
           >
             05. Gomoney Early Access (404)
           </a>
           <div class="project__summary">
-           An interactive 404 experience for 
-           Gomoney early access website.
+            An interactive 404 experience for Gomoney early access website.
           </div>
         </div>
         <div class="project">
-          <a 
-            href="https://blog.gomoney.global/" 
-            target="blank" 
+          <a
+            href="https://blog.gomoney.global/"
+            target="blank"
             class="project__title"
           >
             06. Gomoney Blog
@@ -98,22 +93,22 @@
           </div>
         </div>
         <div class="project">
-          <a 
-            href="https://pay.gomoney.global/?id=08124390729" 
-            target="blank" 
+          <a
+            href="https://pay.gomoney.global/?id=08124390729"
+            target="blank"
             class="project__title"
           >
             07. Gomoney Payment Portal
           </a>
           <div class="project__summary">
-            A way to send money to Gomoney users 
-            using their unique payment link.
+            A way to send money to Gomoney users using their unique payment
+            link.
           </div>
         </div>
         <div class="project">
-          <a 
-            href="https://v1.thekolapo.com" 
-            target="blank" 
+          <a
+            href="https://v1.thekolapo.com"
+            target="blank"
             class="project__title"
           >
             08. Portfolio v.1
@@ -123,9 +118,9 @@
           </div>
         </div>
         <div class="project">
-          <a 
-            href="https://pong.thekolapo.com" 
-            target="blank" 
+          <a
+            href="https://pong.thekolapo.com"
+            target="blank"
             class="project__title"
           >
             09. Pong
@@ -135,24 +130,20 @@
           </div>
         </div>
         <div class="project">
-          <a 
-            href="https://fading.thekolapo.com" 
-            target="blank" 
+          <a
+            href="https://fading.thekolapo.com"
+            target="blank"
             class="project__title"
           >
             10. Fading
           </a>
           <div class="project__summary">
-            A minimalist 2D game where you traverse 
-            the mind of a troubled man.
+            A minimalist 2D game where you traverse the mind of a troubled man.
           </div>
         </div>
         <div class="project">
-          <div 
-            class="project__title" 
-            @click="launchWorkPage()"
-          >
-            View More 
+          <div class="project__title" @click="launchWorkPage()">
+            View More
             <span class="arrow">&#x2192;</span>
           </div>
         </div>
@@ -161,43 +152,28 @@
         <div class="text-title">
           Recognitions
         </div>
-       <div class="recognition">
-         <div class="platform">CSS Light</div>
-         <div class="award">Featured of the Day x1</div>
-       </div>
+        <div class="recognition">
+          <div class="platform">CSS Light</div>
+          <div class="award">Featured of the Day x1</div>
+        </div>
       </div>
       <div class="section-contact">
         <div class="text-title">
           Contact
         </div>
-        <a 
-          href="mailto:onikolapo@gmail.com" 
-          target="_blank"
-        >
+        <a href="mailto:onikolapo@gmail.com" target="_blank">
           Email
         </a>
-        <a 
-          href="https://twitter.com/kolapo_"
-          target="_blank"
-        >
+        <a href="https://twitter.com/kolapo_" target="_blank">
           twitter
         </a>
-        <a 
-          href="https://www.instagram.com/thekolapo/"
-          target="_blank"
-        >
+        <a href="https://www.instagram.com/thekolapo/" target="_blank">
           instagram
         </a>
-        <a 
-          href="https://vsco.co/thekolapo/images"
-          target="_blank"
-        >
+        <a href="https://vsco.co/thekolapo/images" target="_blank">
           vsco
         </a>
-        <a 
-          href="https://github.com/thekolapo"
-          target="_blank"
-        >
+        <a href="https://github.com/thekolapo" target="_blank">
           github
         </a>
       </div>
@@ -216,29 +192,30 @@ export default {
     }
   },
   mounted() {
-    document.body.style.backgroundColor = "#d55533";
+    document.body.style.backgroundColor = '#d55533'
 
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-      this.isMobile = true; 
+    if (
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      )
+    ) {
+      this.isMobile = true
     }
 
-    new TimelineLite().to(
-      ".container", 0.66, 
-      {
-        opacity: 1, 
-        ease: Power2.easeIn
-      }
-    );
+    new TimelineLite().to('.container', 0.66, {
+      opacity: 1,
+      ease: Power2.easeIn
+    })
   },
   methods: {
     launchWorkPage() {
-      const overlay = this.$refs.overlay;
-      overlay.style.zIndex = "10";
-      overlay.style.backgroundColor = "rgb(255, 168, 61)";
+      const overlay = this.$refs.overlay
+      overlay.style.zIndex = '10'
+      overlay.style.backgroundColor = 'rgb(255, 168, 61)'
 
       setTimeout(() => {
-        this.$router.push("/work"); 
-      }, 700);
+        this.$router.push('/work')
+      }, 700)
     }
   }
 }
@@ -271,7 +248,7 @@ $section-left-padding: 1.786vw;
     text-decoration: none;
     color: black;
     transition: color 0.7s ease-in-out;
-     
+
     &:hover {
       color: rgb(255, 168, 61);
     }
@@ -360,7 +337,7 @@ $section-left-padding: 1.786vw;
 
     a {
       display: inline-block;
-      font-size: 3.2738vw;    
+      font-size: 3.2738vw;
       text-transform: uppercase;
       margin-bottom: 1.7857vw;
       font-weight: 300;
@@ -415,7 +392,7 @@ $section-left-padding: 1.786vw;
 
     .section-work {
       font-size: 10vw;
-      
+
       .project {
         font-size: 6.2vw;
         margin-bottom: 7vw;
