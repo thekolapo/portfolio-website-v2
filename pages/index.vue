@@ -296,9 +296,10 @@ $section-left-padding: 1.786vw;
     .text-about {
       font-size: 4.345vw;
       font-weight: 300;
-      margin-top: 10.714vw;
+      margin-top: 10.5vw;
       padding-left: $section-left-padding;
       width: 95.5%;
+      line-height: 1.2;
 
       a {
         text-decoration: none;
