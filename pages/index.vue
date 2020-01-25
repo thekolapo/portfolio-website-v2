@@ -159,6 +159,13 @@
           </a>
         </div>
         <div class="recognition">
+          <div class="platform">thegallery.io</div>
+          <a href="https://thegallery.io/" target="blank" class="award">
+            Featured websites - 2019 Year In Review <br />
+            & Portfolio V.2
+          </a>
+        </div>
+        <div class="recognition">
           <div class="platform">CSS Light</div>
           <a href="https://bit.ly/38nq4gd" target="blank" class="award">
             Featured of the Day - Portfolio V.1
