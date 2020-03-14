@@ -112,6 +112,14 @@
       <div class="section-recognitions">
         <div class="text-title">Recognitions</div>
         <div class="recognition">
+          <div class="platform">VAN SCHNEIDER's DESK Magazine</div>
+          <a
+            href="https://bit.ly/33ppEEQ"
+            target="blank"
+            class="award"
+          >Design in Nigeria (Pt. II) featuring Kolapo Oni</a>
+        </div>
+        <div class="recognition">
           <div class="platform">Typewolf</div>
           <a
             href="https://bit.ly/2uWtsQx"
