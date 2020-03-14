@@ -27,7 +27,7 @@
       <div class="section-work">
         <div class="text-title">Selected Work</div>
         <div class="project">
-          <a href="http://osegames.com" target="blank" class="project__title">01. Ose Games</a>
+          <a href="http://osegames.com" target="_blank" class="project__title">01. Ose Games</a>
           <div class="project__summary">
             Website of a mobile games development company based in Lagos,
             Nigeria.
@@ -36,7 +36,7 @@
         <div class="project">
           <a
             href="http://beautifulexperiences.xyz"
-            target="blank"
+            target="_blank"
             class="project__title"
           >02. Beautiful Experiences</a>
           <div class="project__summary">A curation of awesome web and interactive experiences.</div>
@@ -44,7 +44,7 @@
         <div class="project">
           <a
             href="https://2019.thekolapo.com/"
-            target="blank"
+            target="_blank"
             class="project__title"
           >03. 2019 Year in Review</a>
           <div class="project__summary">My Year in Review for 2019.</div>
@@ -52,7 +52,7 @@
         <div class="project">
           <a
             href="https://early-access.gomoney.global"
-            target="blank"
+            target="_blank"
             class="project__title"
           >04. Gomoney Early Access</a>
           <div
@@ -62,7 +62,7 @@
         <div class="project">
           <a
             href="https://early-access.gomoney.global/404"
-            target="blank"
+            target="_blank"
             class="project__title"
           >05. Gomoney Early Access (404)</a>
           <div
@@ -72,7 +72,7 @@
         <div class="project">
           <a
             href="https://blog.gomoney.global/"
-            target="blank"
+            target="_blank"
             class="project__title"
           >06. Gomoney Blog</a>
           <div class="project__summary">Blog for Gomoney.</div>
@@ -80,7 +80,7 @@
         <div class="project">
           <a
             href="https://pay.gomoney.global/?id=08124390729"
-            target="blank"
+            target="_blank"
             class="project__title"
           >07. Gomoney Payment Portal</a>
           <div class="project__summary">
@@ -89,15 +89,19 @@
           </div>
         </div>
         <div class="project">
-          <a href="https://v1.thekolapo.com" target="blank" class="project__title">08. Portfolio v.1</a>
+          <a
+            href="https://v1.thekolapo.com"
+            target="_blank"
+            class="project__title"
+          >08. Portfolio v.1</a>
           <div class="project__summary">First version of my portfolio website.</div>
         </div>
         <div class="project">
-          <a href="https://pong.thekolapo.com" target="blank" class="project__title">09. Pong</a>
+          <a href="https://pong.thekolapo.com" target="_blank" class="project__title">09. Pong</a>
           <div class="project__summary">A 2D WebGL pong game.</div>
         </div>
         <div class="project">
-          <a href="https://fading.thekolapo.com" target="blank" class="project__title">10. Fading</a>
+          <a href="https://fading.thekolapo.com" target="_blank" class="project__title">10. Fading</a>
           <div
             class="project__summary"
           >A minimalist 2D game where you traverse the mind of a troubled man.</div>
@@ -115,7 +119,7 @@
           <div class="platform">VAN SCHNEIDER's DESK Magazine</div>
           <a
             href="https://bit.ly/33ppEEQ"
-            target="blank"
+            target="_blank"
             class="award"
           >Design in Nigeria (Pt. II) featuring Kolapo Oni</a>
         </div>
@@ -123,13 +127,13 @@
           <div class="platform">Typewolf</div>
           <a
             href="https://bit.ly/2uWtsQx"
-            target="blank"
+            target="_blank"
             class="award"
           >Site of the Day - 2019 Year In Review</a>
         </div>
         <div class="recognition">
           <div class="platform">thegallery.io</div>
-          <a href="https://thegallery.io/" target="blank" class="award">
+          <a href="https://thegallery.io/" target="_blank" class="award">
             Featured websites - 2019 Year In Review
             <br />& Portfolio V.2
           </a>
@@ -138,7 +142,7 @@
           <div class="platform">CSS Light</div>
           <a
             href="https://bit.ly/38nq4gd"
-            target="blank"
+            target="_blank"
             class="award"
           >Featured of the Day - Portfolio V.1</a>
         </div>
