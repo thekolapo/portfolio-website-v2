@@ -3,30 +3,31 @@
     <div id="overlay" ref="overlay" />
     <div class="container" ref="container">
       <div class="section-name-about">
-        <div class="text-name">
-          Kolapo Oni
-        </div>
+        <div class="text-name">Kolapo Oni</div>
         <div class="text-about">
           I’m a web designer & developer based in Lagos, Nigeria, with a passion
           for interactive design, aesthetics & smooth UIs. I have objectively
           good taste in
-          <a href="https://spoti.fi/2mnFoGN" target="_blank">music</a>, and I
-          take great shots on
+          <a
+            href="https://spoti.fi/2mnFoGN"
+            target="_blank"
+          >music</a>,
+          and I take great shots on
           <a href="https://bit.ly/2m4xi5C" target="_blank">VSCO</a> with my
-          iPhone <span v-if="!isMobile">(mostly)</span> & Canon 600D. I also
+          iPhone
+          <span v-if="!isMobile">(mostly)</span> & Canon 600D. I also
           curate niceties (majorly illustrations & interior design images) on
-          <a href="https://bit.ly/33HPKS8" target="_blank">Pinterest</a>.
+          <a
+            href="https://bit.ly/33HPKS8"
+            target="_blank"
+          >Pinterest</a>.
           Currently a member of Awwwards Young Jury.
         </div>
       </div>
       <div class="section-work">
-        <div class="text-title">
-          Selected Work
-        </div>
+        <div class="text-title">Selected Work</div>
         <div class="project">
-          <a href="http://osegames.com" target="blank" class="project__title">
-            01. Ose Games
-          </a>
+          <a href="http://osegames.com" target="blank" class="project__title">01. Ose Games</a>
           <div class="project__summary">
             Website of a mobile games development company based in Lagos,
             Nigeria.
@@ -37,109 +38,69 @@
             href="http://beautifulexperiences.xyz"
             target="blank"
             class="project__title"
-          >
-            02. Beautiful Experiences
-          </a>
-          <div class="project__summary">
-            A curation of awesome web and interactive experiences.
-          </div>
+          >02. Beautiful Experiences</a>
+          <div class="project__summary">A curation of awesome web and interactive experiences.</div>
         </div>
         <div class="project">
           <a
             href="https://2019.thekolapo.com/"
             target="blank"
             class="project__title"
-          >
-            03. 2019 Year in Review
-          </a>
-          <div class="project__summary">
-            My Year in Review for 2019.
-          </div>
+          >03. 2019 Year in Review</a>
+          <div class="project__summary">My Year in Review for 2019.</div>
         </div>
         <div class="project">
           <a
             href="https://early-access.gomoney.global"
             target="blank"
             class="project__title"
-          >
-            04. Gomoney Early Access
-          </a>
-          <div class="project__summary">
-            Early access site for a digital bank based in Lagos, Nigeria.
-          </div>
+          >04. Gomoney Early Access</a>
+          <div
+            class="project__summary"
+          >Early access site for a digital bank based in Lagos, Nigeria.</div>
         </div>
         <div class="project">
           <a
             href="https://early-access.gomoney.global/404"
             target="blank"
             class="project__title"
-          >
-            05. Gomoney Early Access (404)
-          </a>
-          <div class="project__summary">
-            An interactive 404 experience for Gomoney early access website.
-          </div>
+          >05. Gomoney Early Access (404)</a>
+          <div
+            class="project__summary"
+          >An interactive 404 experience for Gomoney early access website.</div>
         </div>
         <div class="project">
           <a
             href="https://blog.gomoney.global/"
             target="blank"
             class="project__title"
-          >
-            06. Gomoney Blog
-          </a>
-          <div class="project__summary">
-            Blog for Gomoney.
-          </div>
+          >06. Gomoney Blog</a>
+          <div class="project__summary">Blog for Gomoney.</div>
         </div>
         <div class="project">
           <a
             href="https://pay.gomoney.global/?id=08124390729"
             target="blank"
             class="project__title"
-          >
-            07. Gomoney Payment Portal
-          </a>
+          >07. Gomoney Payment Portal</a>
           <div class="project__summary">
             A way to send money to Gomoney users using their unique payment
             link.
           </div>
         </div>
         <div class="project">
-          <a
-            href="https://v1.thekolapo.com"
-            target="blank"
-            class="project__title"
-          >
-            08. Portfolio v.1
-          </a>
-          <div class="project__summary">
-            First version of my portfolio website.
-          </div>
+          <a href="https://v1.thekolapo.com" target="blank" class="project__title">08. Portfolio v.1</a>
+          <div class="project__summary">First version of my portfolio website.</div>
         </div>
         <div class="project">
-          <a
-            href="https://pong.thekolapo.com"
-            target="blank"
-            class="project__title"
-          >
-            09. Pong
-          </a>
-          <div class="project__summary">
-            A 2D WebGL pong game.
-          </div>
+          <a href="https://pong.thekolapo.com" target="blank" class="project__title">09. Pong</a>
+          <div class="project__summary">A 2D WebGL pong game.</div>
         </div>
         <div class="project">
-          <a
-            href="https://fading.thekolapo.com"
-            target="blank"
-            class="project__title"
-          >
-            10. Fading
-          </a>
-          <div class="project__summary">
-            A minimalist 2D game where you traverse the mind of a troubled man.
-          </div>
+          <a href="https://fading.thekolapo.com" target="blank" class="project__title">10. Fading</a>
+          <div
+            class="project__summary"
+          >A minimalist 2D game where you traverse the mind of a troubled man.</div>
         </div>
         <div class="project">
           <div class="project__title" @click="launchWorkPage()">
@@ -149,52 +110,40 @@
         </div>
       </div>
       <div class="section-recognitions">
-        <div class="text-title">
-          Recognitions
-        </div>
+        <div class="text-title">Recognitions</div>
         <div class="recognition">
           <div class="platform">Typewolf</div>
-          <a href="https://bit.ly/2uWtsQx" target="blank" class="award">
-            Site of the Day - 2019 Year In Review
-          </a>
+          <a
+            href="https://bit.ly/2uWtsQx"
+            target="blank"
+            class="award"
+          >Site of the Day - 2019 Year In Review</a>
         </div>
         <div class="recognition">
           <div class="platform">thegallery.io</div>
           <a href="https://thegallery.io/" target="blank" class="award">
-            Featured websites - 2019 Year In Review <br />
-            & Portfolio V.2
+            Featured websites - 2019 Year In Review
+            <br />& Portfolio V.2
           </a>
         </div>
         <div class="recognition">
           <div class="platform">CSS Light</div>
-          <a href="https://bit.ly/38nq4gd" target="blank" class="award">
-            Featured of the Day - Portfolio V.1
-          </a>
+          <a
+            href="https://bit.ly/38nq4gd"
+            target="blank"
+            class="award"
+          >Featured of the Day - Portfolio V.1</a>
         </div>
       </div>
       <div class="section-contact">
-        <div class="text-title">
-          Contact
-        </div>
-        <a href="mailto:onikolapo@gmail.com" target="_blank">
-          Email
-        </a>
-        <a href="https://twitter.com/kolapo_" target="_blank">
-          twitter
-        </a>
-        <a href="https://www.instagram.com/thekolapo/" target="_blank">
-          instagram
-        </a>
-        <a href="https://vsco.co/thekolapo/images" target="_blank">
-          vsco
-        </a>
-        <a href="https://github.com/thekolapo" target="_blank">
-          github
-        </a>
+        <div class="text-title">Contact</div>
+        <a href="mailto:onikolapo@gmail.com" target="_blank">Email</a>
+        <a href="https://twitter.com/kolapo_" target="_blank">twitter</a>
+        <a href="https://www.instagram.com/thekolapo/" target="_blank">instagram</a>
+        <a href="https://vsco.co/thekolapo/images" target="_blank">vsco</a>
+        <a href="https://github.com/thekolapo" target="_blank">github</a>
       </div>
-      <div class="section-extra">
-        I live for the aesthetics 🤘🏾
-      </div>
+      <div class="section-extra">I live for the aesthetics 🤘🏾</div>
     </div>
   </div>
 </template>
