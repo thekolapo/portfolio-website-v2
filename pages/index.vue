@@ -153,6 +153,7 @@
         <a href="https://twitter.com/kolapo_" target="_blank">twitter</a>
         <a href="https://www.instagram.com/thekolapo/" target="_blank">instagram</a>
         <a href="https://vsco.co/thekolapo/images" target="_blank">vsco</a>
+        <a href="https://www.behance.net/thekolapo" target="_blank">behance</a>
         <a href="https://github.com/thekolapo" target="_blank">github</a>
       </div>
       <div class="section-extra">I live for the aesthetics 🤘🏾</div>
