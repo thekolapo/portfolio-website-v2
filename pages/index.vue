@@ -71,7 +71,9 @@
             class="project__title"
             >05. Gomoney Blog</a
           >
-          <div class="project__summary">Blog for Gomoney.</div>
+          <div class="project__summary">
+            Blog for gomoney - a digital bank based in Lagos, Nigeria.
+          </div>
         </div>
         <div class="project">
           <a
