@@ -26,7 +26,13 @@
           <div class="project__summary">
             A website to spread awareness about the #EndSARS protest in Nigeria.
             Built this site with
-            <a href="http://onyekachi.com.ng/" target="_blank">Onyekachi</a>.
+            <a
+              href="http://onyekachi.com.ng/"
+              target="_blank"
+              class="highlighted-text"
+            >
+              Onyekachi </a
+            >.
           </div>
         </div>
         <div class="project">
