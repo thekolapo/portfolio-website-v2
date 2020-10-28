@@ -31,7 +31,7 @@
               target="_blank"
               class="highlighted-text"
             >
-              Onyekachi </a
+              Onyekachi</a
             >.
           </div>
         </div>
