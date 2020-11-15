@@ -20,8 +20,19 @@
       <div class="section-work">
         <div class="text-title">Selected Work</div>
         <div class="project">
+          <a
+            href="https://www.adetomiwa.me/"
+            target="_blank"
+            class="project__title"
+            >01. Adetomiwa Isiaka</a
+          >
+          <div class="project__summary">
+            Portolio of a content developer from Lagos, Nigeria.
+          </div>
+        </div>
+        <div class="project">
           <a href="https://ngvoices.ng" target="_blank" class="project__title"
-            >01. NG Voices</a
+            >02. NG Voices</a
           >
           <div class="project__summary">
             A website to spread awareness about the #EndSARS protest in Nigeria.
@@ -40,13 +51,13 @@
             href="https://2019.thekolapo.com/"
             target="_blank"
             class="project__title"
-            >02. 2019 Year in Review</a
+            >03. 2019 Year in Review</a
           >
           <div class="project__summary">My Year in Review for 2019.</div>
         </div>
         <div class="project">
           <a href="http://osegames.com" target="_blank" class="project__title"
-            >03. Ose Games</a
+            >04. Ose Games</a
           >
           <div class="project__summary">
             Website of a mobile games development company based in Lagos,
@@ -58,7 +69,7 @@
             href="http://beautifulexperiences.xyz"
             target="_blank"
             class="project__title"
-            >04. Beautiful Experiences</a
+            >05. Beautiful Experiences</a
           >
           <div class="project__summary">
             A curation of awesome web and interactive experiences.
@@ -69,22 +80,10 @@
             href="https://blog.gomoney.global/"
             target="_blank"
             class="project__title"
-            >05. Gomoney Blog</a
+            >06. Gomoney Blog</a
           >
           <div class="project__summary">
             Blog for gomoney - a digital bank based in Lagos, Nigeria.
-          </div>
-        </div>
-        <div class="project">
-          <a
-            href="https://pay.gomoney.global/?id=08124390729"
-            target="_blank"
-            class="project__title"
-            >06. Gomoney Payment Portal</a
-          >
-          <div class="project__summary">
-            A way to send money to Gomoney users using their unique payment
-            link.
           </div>
         </div>
         <div class="project">
@@ -173,7 +172,7 @@
 export default {
   data() {
     return {
-      isMobile: false
+      isMobile: false,
     }
   },
   mounted() {
@@ -189,7 +188,7 @@ export default {
 
     new TimelineLite().to('.container', 0.66, {
       opacity: 1,
-      ease: Power2.easeIn
+      ease: Power2.easeIn,
     })
   },
   methods: {
@@ -201,8 +200,8 @@ export default {
       setTimeout(() => {
         this.$router.push('/work')
       }, 700)
-    }
-  }
+    },
+  },
 }
 </script>
 
