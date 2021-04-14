@@ -29,15 +29,27 @@ export default {
         content: "/meta-image.png"
       },
       {
+        hid: 'description',
+        name: 'description',
+        content: 'Portfolio of Kolapo Oni, an interactive designer & developer based in Lagos, Nigeria.'
+      },
+      {
         name:
           'twitter:card',
         content: 'summary_large_image'
       },
       {
-        hid: 'description',
-        name: 'description',
+        property: 'twitter:title',
+        content: 'Kolapo Oni - Interactive Designer'
+      },
+      {
+        property: 'twitter:description',
         content: 'Portfolio of Kolapo Oni, an interactive designer & developer based in Lagos, Nigeria.'
-      }
+      },
+      {
+        property: 'twitter:image',
+        content: "/meta-image.png"
+      },
     ],
     script: [
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js' },
