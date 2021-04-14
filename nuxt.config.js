@@ -8,40 +8,41 @@ export default {
     title: 'Kolapo Oni - Interactive Designer',
     meta: [
       { charset: 'utf-8' },
-      { 
-        name: 'viewport', 
-        content: 'width=device-width, initial-scale=1' 
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
       },
-      { 
-        name: 'keywords', 
+      {
+        name: 'keywords',
         content: 'Kolapo Oni, Kolapo, Oni'
       },
-      { 
-        property: 'og:title', 
-        content: 'Kolapo Oni - Interactive Designer' 
+      {
+        property: 'og:title',
+        content: 'Kolapo Oni - Interactive Designer'
       },
-      { 
-        property: 'og:url', 
-        content: 'https://thekolapo.com' 
+      {
+        property: 'og:url',
+        content: 'https://thekolapo.com'
       },
-      { 
-        property: "og:image", 
-        content: "https://res.cloudinary.com/daitiebum/image/upload/v1572545139/portfolio-website-v2/home_screenshot.png" 
+      {
+        property: "og:image",
+        content: "/meta-image.png"
       },
-      { name: 
-        'twitter:card',
-        content: 'summary_large_image' 
+      {
+        name:
+          'twitter:card',
+        content: 'summary_large_image'
       },
-      { 
-        hid: 'description', 
-        name: 'description', 
-        content: 'Portfolio of Kolapo Oni, an interactive designer & developer based in Lagos, Nigeria.' 
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Portfolio of Kolapo Oni, an interactive designer & developer based in Lagos, Nigeria.'
       }
     ],
     script: [
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js' },
       { src: 'https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js' },
-      { src: 'https://code.jquery.com/jquery-3.4.1.min.js'},
+      { src: 'https://code.jquery.com/jquery-3.4.1.min.js' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -87,7 +88,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
     }
   }
 }
