@@ -26,7 +26,7 @@ export default {
       },
       {
         property: "og:image",
-        content: "/meta-image.png"
+        content: "https://thekolapo.com/meta-image.png"
       },
       {
         hid: 'description',
@@ -48,7 +48,7 @@ export default {
       },
       {
         property: 'twitter:image',
-        content: "/meta-image.png"
+        content: "https://thekolapo.com/meta-image.png"
       },
     ],
     script: [
