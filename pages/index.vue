@@ -27,7 +27,7 @@
             >01. Adetomiwa Isiaka</a
           >
           <div class="project__summary">
-            Portolio of a content developer from Lagos, Nigeria.
+            Portfolio of a content developer from Lagos, Nigeria.
           </div>
         </div>
         <div class="project">
