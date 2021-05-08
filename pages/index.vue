@@ -10,21 +10,44 @@
           good taste in
           <a href="https://spoti.fi/2mnFoGN" target="_blank">music</a>, and I
           take great shots on
-          <a href="https://bit.ly/2m4xi5C" target="_blank">VSCO</a> with my
-          iPhone <span v-if="!isMobile">(mostly)</span> & Canon 600D. I also
-          curate niceties (majorly illustrations & interior design images) on
-          <a href="https://bit.ly/33HPKS8" target="_blank">Pinterest</a>.
-          Currently a member of Awwwards Young Jury.
+          <a href="https://vsco.co/thekolapo/gallery" target="_blank">VSCO</a>
+          with my iPhone <span v-if="!isMobile">(mostly)</span> & Canon 600D. I
+          also curate niceties (majorly illustrations & interior design images)
+          on
+          <a href="https://pinterest.com/kolapooni" target="_blank">Pinterest</a
+          >. Currently, I work on the design team at
+          <a href="https://flutterwave.com" target="_blank">Flutterwave</a>, and
+          I'm also a member of Awwwards Young Jury.
         </div>
       </div>
       <div class="section-work">
         <div class="text-title">Selected Work</div>
         <div class="project">
           <a
+            href="https://flutterwave.design"
+            target="_blank"
+            class="project__title"
+            >01. Flutterwave Design</a
+          >
+          <div class="project__summary">
+            Website of the Flutterwave Design team.
+          </div>
+        </div>
+        <div class="project">
+          <a
+            href="https://flutterwave.com/blog"
+            target="_blank"
+            class="project__title"
+            >02. Flutterwave Blog</a
+          >
+          <div class="project__summary">The marketing blog of Flutterwave.</div>
+        </div>
+        <div class="project">
+          <a
             href="https://www.adetomiwa.me/"
             target="_blank"
             class="project__title"
-            >01. Adetomiwa Isiaka</a
+            >03. Adetomiwa Isiaka</a
           >
           <div class="project__summary">
             Portfolio of a content developer from Lagos, Nigeria.
@@ -32,7 +55,7 @@
         </div>
         <div class="project">
           <a href="https://ngvoices.ng" target="_blank" class="project__title"
-            >02. NG Voices</a
+            >04. NG Voices</a
           >
           <div class="project__summary">
             A website to spread awareness about the #EndSARS protest in Nigeria.
@@ -51,13 +74,16 @@
             href="https://2019.thekolapo.com/"
             target="_blank"
             class="project__title"
-            >03. 2019 Year in Review</a
+            >05. 2019 Year in Review</a
           >
           <div class="project__summary">My Year in Review for 2019.</div>
         </div>
         <div class="project">
-          <a href="http://osegames.com" target="_blank" class="project__title"
-            >04. Ose Games</a
+          <a
+            href="https://osegames.netlify.app"
+            target="_blank"
+            class="project__title"
+            >06. Ose Games</a
           >
           <div class="project__summary">
             Website of a mobile games development company based in Lagos,
@@ -66,35 +92,13 @@
         </div>
         <div class="project">
           <a
-            href="http://beautifulexperiences.xyz"
+            href="https://beautifulexperiences.netlify.app/"
             target="_blank"
             class="project__title"
-            >05. Beautiful Experiences</a
+            >07. Beautiful Experiences</a
           >
           <div class="project__summary">
             A curation of awesome web and interactive experiences.
-          </div>
-        </div>
-        <div class="project">
-          <a
-            href="https://blog.gomoney.global/"
-            target="_blank"
-            class="project__title"
-            >06. Gomoney Blog</a
-          >
-          <div class="project__summary">
-            Blog for gomoney - a digital bank based in Lagos, Nigeria.
-          </div>
-        </div>
-        <div class="project">
-          <a
-            href="https://v1.thekolapo.com"
-            target="_blank"
-            class="project__title"
-            >07. Portfolio v.1</a
-          >
-          <div class="project__summary">
-            First version of my portfolio website.
           </div>
         </div>
         <div class="project">
