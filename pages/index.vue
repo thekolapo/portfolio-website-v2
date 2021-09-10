@@ -25,14 +25,14 @@
         <div class="project project--first">
           <p class="project__title">01. Flutterwave</p>
           <div class="project__summary">
-            At Flutterwave, I work on the Web experience team, which is
+            At Flutterwave, I work on the Web Experience team, which is
             responsible for the web presence of the company. I also currently
             lead design and development of the
             <a
               class="highlighted-text"
               href="https://flutterwave.com/blog"
               target="_blank"
-              >Flutterwave blog</a
+              >Flutterwave Blog</a
             >,
             <a
               class="highlighted-text"
@@ -483,16 +483,16 @@ $color-yellow: rgb(255, 168, 61);
       }
 
       .text-about {
-        font-size: 32px;
+        font-size: 30px;
         line-height: 1.4;
       }
     }
 
     .section-work {
-      font-size: 50px;
+      font-size: 42px;
 
       .project {
-        font-size: 36px;
+        font-size: 30px;
         margin: 30px 0 50px;
 
         &__title {
@@ -508,13 +508,13 @@ $color-yellow: rgb(255, 168, 61);
     }
 
     .section-recognitions {
-      font-size: 46px;
+      font-size: 42px;
 
       .recognition {
         margin: 30px 0 50px;
 
         .platform {
-          font-size: 36px;
+          font-size: 30px;
         }
 
         .award {
@@ -526,7 +526,7 @@ $color-yellow: rgb(255, 168, 61);
     }
 
     .section-contact {
-      font-size: 46px;
+      font-size: 42px;
 
       a {
         font-size: 26px;
