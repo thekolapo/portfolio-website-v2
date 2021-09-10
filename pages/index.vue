@@ -55,7 +55,7 @@
             href="http://www.danforadio.com/"
             target="_blank"
             class="project__title"
-            >01. Danfo Radio</a
+            >02. Danfo Radio</a
           >
           <div class="project__summary">
             An online radio and web gallery. A collaboration between myself and
@@ -70,30 +70,10 @@
         </div>
         <div class="project">
           <a
-            href="https://flutterwave.design"
-            target="_blank"
-            class="project__title"
-            >02. Flutterwave Design</a
-          >
-          <div class="project__summary">
-            Website of the Flutterwave Design team.
-          </div>
-        </div>
-        <div class="project">
-          <a
-            href="https://flutterwave.com/blog"
-            target="_blank"
-            class="project__title"
-            >03. Flutterwave Blog</a
-          >
-          <div class="project__summary">The marketing blog of Flutterwave.</div>
-        </div>
-        <div class="project">
-          <a
             href="https://www.adetomiwa.me/"
             target="_blank"
             class="project__title"
-            >04. Adetomiwa Isiaka</a
+            >03. Adetomiwa Isiaka</a
           >
           <div class="project__summary">
             Portfolio of a content developer from Lagos, Nigeria.
@@ -101,7 +81,7 @@
         </div>
         <div class="project">
           <a href="https://ngvoices.ng" target="_blank" class="project__title"
-            >05. NG Voices</a
+            >04. NG Voices</a
           >
           <div class="project__summary">
             A website to spread awareness about the #EndSARS protest in Nigeria.
@@ -120,7 +100,7 @@
             href="https://2019.thekolapo.com/"
             target="_blank"
             class="project__title"
-            >06. 2019 Year in Review</a
+            >05. 2019 Year in Review</a
           >
           <div class="project__summary">My Year in Review for 2019.</div>
         </div>
@@ -129,7 +109,7 @@
             href="https://osegames.netlify.app"
             target="_blank"
             class="project__title"
-            >07. Ose Games</a
+            >06. Ose Games</a
           >
           <div class="project__summary">
             Website of a mobile games development company based in Lagos,
@@ -141,7 +121,7 @@
             href="https://beautifulexperiences.netlify.app/"
             target="_blank"
             class="project__title"
-            >08. Beautiful Experiences</a
+            >07. Beautiful Experiences</a
           >
           <div class="project__summary">
             A curation of awesome web and interactive experiences.
@@ -152,7 +132,7 @@
             href="https://pong.thekolapo.com"
             target="_blank"
             class="project__title"
-            >09. Pong</a
+            >08. Pong</a
           >
           <div class="project__summary">A 2D WebGL pong game.</div>
         </div>
@@ -161,7 +141,7 @@
             href="https://fading.thekolapo.com"
             target="_blank"
             class="project__title"
-            >10. Fading</a
+            >09. Fading</a
           >
           <div class="project__summary">
             A minimalist 2D game where you traverse the mind of a troubled man.
