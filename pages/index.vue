@@ -16,12 +16,40 @@
           on
           <a href="https://pinterest.com/kolapooni" target="_blank">Pinterest</a
           >. Currently, I work on the design team at
-          <a href="https://flutterwave.com" target="_blank">Flutterwave</a>, and
-          I'm also a member of Awwwards Young Jury.
+          <a href="https://flutterwave.design" target="_blank">Flutterwave</a>,
+          and I'm also a member of Awwwards Young Jury.
         </div>
       </div>
       <div class="section-work">
         <div class="text-title">Selected Work</div>
+        <div class="project project--first">
+          <p class="project__title">01. Flutterwave</p>
+          <div class="project__summary">
+            At Flutterwave, I work on the Web experience team, which is
+            responsible for the web presence of the company. I also currently
+            lead design and development of the
+            <a
+              class="highlighted-text"
+              href="https://flutterwave.com/blog"
+              target="_blank"
+              >Flutterwave blog</a
+            >,
+            <a
+              class="highlighted-text"
+              href="https://flutterwave.com/grow"
+              target="_blank"
+              >Flutterwave Grow</a
+            >
+            landing page as well as the
+            <a
+              class="highlighted-text"
+              href="https://flutterwave.design"
+              target="_blank"
+            >
+              Flutterwave Design website</a
+            >.
+          </div>
+        </div>
         <div class="project">
           <a
             href="http://www.danforadio.com/"
@@ -228,5 +256,240 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/styles/sass/index';
+$section-top-margin: 14.881vw;
+$section-left-padding: 1.786vw;
+$color-yellow: rgb(255, 168, 61);
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: -10;
+  position: fixed;
+  transition: background-color 0.5s ease-in;
+}
+
+.container {
+  padding: 14.881vw 1.191vw;
+  padding-bottom: 5.9524vw;
+  opacity: 0;
+  // transition: opacity 1s ease-in;
+
+  .text-title {
+    text-decoration: underline;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.7s ease-in-out;
+
+    &:hover {
+      color: $color-yellow;
+    }
+  }
+
+  .highlighted-text {
+    color: $color-yellow;
+  }
+
+  #shape-circle {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 100px;
+  }
+
+  .section-name-about {
+    .text-name {
+      font-size: 14.88vw;
+      font-weight: normal;
+      text-transform: uppercase;
+      padding-left: 0.6vw;
+    }
+
+    .text-about {
+      font-size: 4.345vw;
+      font-weight: 300;
+      margin-top: 10.5vw;
+      padding-left: $section-left-padding;
+      width: 95.5%;
+      line-height: 1.2;
+
+      a {
+        text-decoration: none;
+        color: $color-yellow;
+      }
+    }
+  }
+
+  .section-work {
+    font-size: 8.929vw;
+    padding-left: $section-left-padding;
+    margin-top: $section-top-margin;
+
+    .text-title {
+      margin-bottom: 3.571vw;
+    }
+
+    .project {
+      font-size: 4.345vw;
+      margin-bottom: 5.357vw;
+
+      &:last-child {
+        margin-bottom: 0vw;
+      }
+
+      &--first {
+        .project__title:hover {
+          color: black;
+        }
+
+        .project__summary {
+          width: 92%;
+        }
+      }
+
+      &__title {
+        display: inline-block;
+        text-transform: uppercase;
+        transition: color 0.7s ease-in-out;
+        margin: 0;
+
+        &:hover {
+          color: $color-yellow;
+        }
+      }
+
+      &__summary {
+        font-size: 3.274vw;
+        margin-top: 1.488vw;
+        font-weight: 300;
+        width: 85%;
+        line-height: 1.35;
+      }
+    }
+
+    .arrow {
+      display: inline-block;
+      margin-left: 0vw;
+      transform: rotate(-40deg);
+      margin-left: -0.5952vw;
+    }
+  }
+
+  .section-recognitions,
+  .section-contact {
+    margin-top: $section-top-margin;
+    padding-left: $section-left-padding;
+    font-size: 7.1429vw;
+
+    a {
+      display: inline-block;
+      font-size: 3.2738vw;
+      text-transform: uppercase;
+      margin-bottom: 1.7857vw;
+      font-weight: 300;
+    }
+  }
+
+  .section-recognitions {
+    .text-title {
+      margin-bottom: 3.571vw;
+    }
+
+    .recognition {
+      font-size: 3.2738vw;
+      margin-bottom: 4.6vw;
+
+      & > :last-child {
+        margin-bottom: 0;
+      }
+
+      .platform {
+        text-transform: uppercase;
+        font-size: calc(3.2738vw + 5px);
+      }
+
+      .award {
+        font-weight: 300;
+        margin-top: 1.4vw;
+        text-transform: none;
+      }
+    }
+  }
+
+  .section-extra {
+    margin-top: 10.7143vw;
+    padding-left: $section-left-padding;
+    font-size: 2.9vw;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-bottom: 20vw;
+
+    .section-name-about {
+      .text-name {
+        font-size: 15vw;
+      }
+
+      .text-about {
+        font-size: 6.5vw;
+        margin-top: 10.714vw;
+        padding-left: $section-left-padding;
+        width: 97%;
+        line-height: 1.3;
+      }
+    }
+
+    .section-work {
+      font-size: 10vw;
+
+      .project {
+        font-size: 6.2vw;
+        margin-bottom: 7vw;
+
+        &__summary {
+          font-size: 5.1vw;
+          margin-top: 1.5vw;
+          width: 98%;
+        }
+      }
+    }
+
+    .section-recognitions {
+      font-size: 9vw;
+
+      .recognition {
+        margin-bottom: 6.2vw;
+
+        .platform {
+          font-size: 6.2vw;
+        }
+
+        .award {
+          font-size: 5vw;
+          margin-top: 1.5vw;
+        }
+      }
+    }
+
+    .section-contact {
+      font-size: 9vw;
+
+      a {
+        font-size: 5vw;
+      }
+    }
+
+    .section-extra {
+      margin-top: 13vw;
+      font-size: 5.4vw;
+    }
+  }
+}
 </style>
