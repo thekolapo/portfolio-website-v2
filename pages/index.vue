@@ -26,8 +26,8 @@
           <p class="project__title">01. Flutterwave</p>
           <div class="project__summary">
             At Flutterwave, I work on the Web Experience team, which is
-            responsible for the web presence of the company. I also currently
-            lead design and development of the
+            responsible for the web presence of the company. I also lead design
+            and development of the
             <a
               class="highlighted-text"
               href="https://flutterwave.com/blog"
