@@ -500,9 +500,9 @@ $color-yellow: rgb(255, 168, 61);
         }
 
         &__summary {
-          font-size: 26px;
+          font-size: 24px;
           margin-top: 10px;
-          line-height: 1.4;
+          line-height: 1.34;
         }
       }
     }
@@ -518,7 +518,7 @@ $color-yellow: rgb(255, 168, 61);
         }
 
         .award {
-          font-size: 26px;
+          font-size: 24px;
           margin-top: 10px;
           line-height: 1.4;
         }
@@ -529,13 +529,13 @@ $color-yellow: rgb(255, 168, 61);
       font-size: 42px;
 
       a {
-        font-size: 26px;
+        font-size: 24px;
       }
     }
 
     .section-extra {
       margin-top: 60px;
-      font-size: 26px;
+      font-size: 24px;
     }
   }
 }
