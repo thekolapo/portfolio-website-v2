@@ -472,4 +472,71 @@ $color-yellow: rgb(255, 168, 61);
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding-top: 100px;
+
+    .section-name-about {
+      .text-name {
+        font-size: 60px;
+      }
+
+      .text-about {
+        font-size: 32px;
+        line-height: 1.4;
+      }
+    }
+
+    .section-work {
+      font-size: 50px;
+
+      .project {
+        font-size: 36px;
+        margin: 30px 0 50px;
+
+        &__title {
+          line-height: 1.35;
+        }
+
+        &__summary {
+          font-size: 26px;
+          margin-top: 10px;
+          line-height: 1.4;
+        }
+      }
+    }
+
+    .section-recognitions {
+      font-size: 46px;
+
+      .recognition {
+        margin: 30px 0 50px;
+
+        .platform {
+          font-size: 36px;
+        }
+
+        .award {
+          font-size: 26px;
+          margin-top: 10px;
+          line-height: 1.4;
+        }
+      }
+    }
+
+    .section-contact {
+      font-size: 46px;
+
+      a {
+        font-size: 26px;
+      }
+    }
+
+    .section-extra {
+      margin-top: 60px;
+      font-size: 26px;
+    }
+  }
+}
 </style>
