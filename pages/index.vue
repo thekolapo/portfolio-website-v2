@@ -483,7 +483,7 @@ $color-yellow: rgb(255, 168, 61);
       }
 
       .text-about {
-        font-size: 30px;
+        font-size: 29px;
         line-height: 1.4;
       }
     }
