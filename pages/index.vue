@@ -22,9 +22,9 @@
       </div>
       <div class="section-work">
         <div class="text-title">Selected Work</div>
-        <div class="project project--first">
+        <div class="project project--company-work">
           <p class="project__title">01. Flutterwave</p>
-          <div class="project__summary">
+          <p class="project__summary">
             At Flutterwave, I work on the Web Experience team, which is
             responsible for the web presence of the company. I also lead design
             and development of the
@@ -48,7 +48,7 @@
             >
               Flutterwave Design website</a
             >.
-          </div>
+          </p>
         </div>
         <div class="project">
           <a
@@ -57,7 +57,7 @@
             class="project__title"
             >02. Danfo Radio</a
           >
-          <div class="project__summary">
+          <p class="project__summary">
             An online radio and web gallery. A collaboration between myself and
             <a
               class="highlighted-text"
@@ -66,7 +66,7 @@
             >
               Yinka Bernie</a
             >.
-          </div>
+          </p>
         </div>
         <div class="project">
           <a
@@ -75,15 +75,15 @@
             class="project__title"
             >03. Adetomiwa Isiaka</a
           >
-          <div class="project__summary">
+          <p class="project__summary">
             Portfolio of a content developer from Lagos, Nigeria.
-          </div>
+          </p>
         </div>
         <div class="project">
           <a href="https://ngvoices.ng" target="_blank" class="project__title"
             >04. NG Voices</a
           >
-          <div class="project__summary">
+          <p class="project__summary">
             A website to spread awareness about the #EndSARS protest in Nigeria.
             Built this site with
             <a
@@ -93,28 +93,36 @@
             >
               Onyekachi</a
             >.
-          </div>
+          </p>
+        </div>
+        <div class="project project--company-work">
+          <p class="project__title">05. Paystack</p>
+          <p class="project__summary">
+            I contracted for a short while with Paystack, where I worked with
+            the design team on the design & development of
+            <a
+              class="highlighted-text"
+              href="https://paystack.com/commerce"
+              target="_blank"
+              >Paystack commerce</a
+            >
+            landing page &
+            <a
+              class="highlighted-text"
+              href="https://paystack.com/music"
+              target="_blank"
+              >Paystack Music</a
+            >.
+          </p>
         </div>
         <div class="project">
           <a
             href="https://2019.thekolapo.com/"
             target="_blank"
             class="project__title"
-            >05. 2019 Year in Review</a
+            >06. 2019 Year in Review</a
           >
-          <div class="project__summary">My Year in Review for 2019.</div>
-        </div>
-        <div class="project">
-          <a
-            href="https://osegames.netlify.app"
-            target="_blank"
-            class="project__title"
-            >06. Ose Games</a
-          >
-          <div class="project__summary">
-            Website of a mobile games development company based in Lagos,
-            Nigeria.
-          </div>
+          <p class="project__summary">My Year in Review for 2019.</p>
         </div>
         <div class="project">
           <a
@@ -123,9 +131,9 @@
             class="project__title"
             >07. Beautiful Experiences</a
           >
-          <div class="project__summary">
+          <p class="project__summary">
             A curation of awesome web and interactive experiences.
-          </div>
+          </p>
         </div>
         <div class="project">
           <a
@@ -134,7 +142,7 @@
             class="project__title"
             >08. Pong</a
           >
-          <div class="project__summary">A 2D WebGL pong game.</div>
+          <p class="project__summary">A 2D WebGL pong game.</p>
         </div>
         <div class="project">
           <a
@@ -143,15 +151,15 @@
             class="project__title"
             >09. Fading</a
           >
-          <div class="project__summary">
+          <p class="project__summary">
             A minimalist 2D game where you traverse the mind of a troubled man.
-          </div>
+          </p>
         </div>
         <div class="project">
-          <div class="project__title" @click="launchWorkPage()">
+          <p class="project__title" @click="launchWorkPage()">
             View More
             <span class="arrow">&#x2192;</span>
-          </div>
+          </p>
         </div>
       </div>
       <div class="section-recognitions">
@@ -321,7 +329,7 @@ $color-yellow: rgb(255, 168, 61);
         margin-bottom: 0vw;
       }
 
-      &--first {
+      &--company-work {
         .project__title:hover {
           color: black;
         }
