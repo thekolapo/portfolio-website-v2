@@ -479,11 +479,11 @@ $color-yellow: rgb(255, 168, 61);
 
     .section-name-about {
       .text-name {
-        font-size: 60px;
+        font-size: 15.8vw;
       }
 
       .text-about {
-        font-size: 29px;
+        font-size: 27px;
         line-height: 1.4;
       }
     }
