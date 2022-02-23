@@ -26,21 +26,27 @@
           <p class="project__title">01. Flutterwave</p>
           <p class="project__summary">
             At Flutterwave, I work on the Web Experience team, which is
-            responsible for the web presence of the company. I also lead design
-            and development of the
+            responsible for
+            <a
+              class="highlighted-text"
+              href="http://flutterwave.com/"
+              target="_blank"
+            >
+              flutterwave.com</a
+            >. We recently launched a
+            <a
+              class="highlighted-text"
+              href="https://twitter.com/kolapo_/status/1494932120632020998"
+              target="_blank"
+              >bold new redesign</a
+            >. I also lead design and development of the
             <a
               class="highlighted-text"
               href="https://flutterwave.com/blog"
               target="_blank"
               >Flutterwave Blog</a
-            >,
-            <a
-              class="highlighted-text"
-              href="https://flutterwave.com/grow"
-              target="_blank"
-              >Flutterwave Grow</a
             >
-            landing page as well as the
+            and the
             <a
               class="highlighted-text"
               href="https://flutterwave.design"
