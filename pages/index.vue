@@ -86,7 +86,10 @@
           </p>
         </div>
         <div class="project">
-          <a href="https://ngvoices.ng" target="_blank" class="project__title"
+          <a
+            href="https://ngvoices.surge.sh/"
+            target="_blank"
+            class="project__title"
             >04. NG Voices</a
           >
           <p class="project__summary">
@@ -216,7 +219,7 @@
 export default {
   data() {
     return {
-      isMobile: false,
+      isMobile: false
     }
   },
   mounted() {
@@ -232,7 +235,7 @@ export default {
 
     new TimelineLite().to('.container', 0.66, {
       opacity: 1,
-      ease: Power2.easeIn,
+      ease: Power2.easeIn
     })
   },
   methods: {
@@ -244,8 +247,8 @@ export default {
       setTimeout(() => {
         this.$router.push('/work')
       }, 700)
-    },
-  },
+    }
+  }
 }
 </script>
 
