@@ -186,6 +186,16 @@
           >
         </div>
         <div class="recognition">
+          <div class="platform">Muzli</div>
+          <a
+            href="https://search.muz.li/NjIyY2E1MjY5"
+            target="_blank"
+            class="award"
+          >
+            Featured websites - 2019 Year In Review</a
+          >
+        </div>
+        <div class="recognition">
           <div class="platform">thegallery.io</div>
           <a href="https://thegallery.io/" target="_blank" class="award">
             Featured websites - 2019 Year In Review
