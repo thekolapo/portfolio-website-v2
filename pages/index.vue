@@ -192,7 +192,7 @@
             target="_blank"
             class="award"
           >
-            Featured websites - 2019 Year In Review</a
+            Featured website - 2019 Year In Review</a
           >
         </div>
         <div class="recognition">
