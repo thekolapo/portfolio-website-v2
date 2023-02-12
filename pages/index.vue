@@ -23,7 +23,13 @@
       <div class="section-work">
         <div class="text-title">Selected Work</div>
         <div class="project project--company-work">
-          <p class="project__title">01. Flutterwave</p>
+          <a
+            class="project__title"
+            href="https://flutterwave.com"
+            target="_blank"
+          >
+            01. Flutterwave
+          </a>
           <p class="project__summary">
             At Flutterwave, I work on the Web Experience team, which is
             responsible for
@@ -105,7 +111,9 @@
           </p>
         </div>
         <div class="project project--company-work">
-          <p class="project__title">05. Paystack</p>
+          <a class="project__title" href="https://paystack.com" target="_blank">
+            05. Paystack
+          </a>
           <p class="project__summary">
             I contracted for a short while with Paystack, where I worked with
             the design team on the design & development of
@@ -165,10 +173,10 @@
           </p>
         </div>
         <div class="project">
-          <p class="project__title" @click="launchWorkPage()">
+          <nuxt-link to="work" class="project__title" @click="launchWorkPage()">
             View More
             <span class="arrow">&#x2192;</span>
-          </p>
+          </nuxt-link>
         </div>
       </div>
       <div class="section-recognitions">
@@ -349,10 +357,6 @@ $color-yellow: rgb(255, 168, 61);
       }
 
       &--company-work {
-        .project__title:hover {
-          color: black;
-        }
-
         .project__summary {
           width: 92%;
         }
