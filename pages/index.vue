@@ -82,7 +82,7 @@
         </div>
         <div class="project">
           <a
-            href="https://www.adetomiwa.me/"
+            href="https://adetomiwa.netlify.app/"
             target="_blank"
             class="project__title"
             >03. Adetomiwa Isiaka</a
