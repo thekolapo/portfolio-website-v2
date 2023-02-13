@@ -225,8 +225,8 @@
           >instagram</a
         >
         <a href="https://vsco.co/thekolapo/images" target="_blank">vsco</a>
-        <a href="https://www.behance.net/thekolapo" target="_blank">behance</a>
         <a href="https://github.com/thekolapo" target="_blank">github</a>
+        <a href="https://read.cv/kolapo" target="_blank">Resume</a>
       </div>
       <div class="section-extra">I live for the aesthetics 🤘🏾</div>
     </div>
