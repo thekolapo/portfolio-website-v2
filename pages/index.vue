@@ -64,10 +64,30 @@
         </div>
         <div class="project">
           <a
+            class="project__title"
+            href="https://music.thekolapo.com/"
+            target="_blank"
+          >
+            02. Spotify Now Playing
+          </a>
+          <p class="project__summary">
+            A wee project that shows the song I'm currently listening to on
+            Spotify. I built this site with
+            <a
+              href="https://twitter.com/theDarasimi"
+              target="_blank"
+              class="highlighted-text"
+            >
+              Darasimi</a
+            >.
+          </p>
+        </div>
+        <div class="project">
+          <a
             href="http://www.danforadio.com/"
             target="_blank"
             class="project__title"
-            >02. Danfo Radio</a
+            >03. Danfo Radio</a
           >
           <p class="project__summary">
             An online radio and web gallery. A collaboration between myself and
@@ -85,7 +105,7 @@
             href="https://adetomiwa.netlify.app/"
             target="_blank"
             class="project__title"
-            >03. Adetomiwa Isiaka</a
+            >04. Adetomiwa Isiaka</a
           >
           <p class="project__summary">
             Portfolio of a content developer from Lagos, Nigeria.
@@ -96,7 +116,7 @@
             href="https://ngvoices.surge.sh/"
             target="_blank"
             class="project__title"
-            >04. NG Voices</a
+            >05. NG Voices</a
           >
           <p class="project__summary">
             A website to spread awareness about the #EndSARS protest in Nigeria.
@@ -112,7 +132,7 @@
         </div>
         <div class="project project--company-work">
           <a class="project__title" href="https://paystack.com" target="_blank">
-            05. Paystack
+            06. Paystack
           </a>
           <p class="project__summary">
             I contracted for a short while with Paystack, where I worked with
@@ -137,7 +157,7 @@
             href="https://2019.thekolapo.com/"
             target="_blank"
             class="project__title"
-            >06. 2019 Year in Review</a
+            >07. 2019 Year in Review</a
           >
           <p class="project__summary">My Year in Review for 2019.</p>
         </div>
@@ -146,7 +166,7 @@
             href="https://beautifulexperiences.netlify.app/"
             target="_blank"
             class="project__title"
-            >07. Beautiful Experiences</a
+            >08. Beautiful Experiences</a
           >
           <p class="project__summary">
             A curation of awesome web and interactive experiences.
@@ -157,7 +177,7 @@
             href="https://pong.thekolapo.com"
             target="_blank"
             class="project__title"
-            >08. Pong</a
+            >09. Pong</a
           >
           <p class="project__summary">A 2D WebGL pong game.</p>
         </div>
@@ -166,7 +186,7 @@
             href="https://fading.thekolapo.com"
             target="_blank"
             class="project__title"
-            >09. Fading</a
+            >10. Fading</a
           >
           <p class="project__summary">
             A minimalist 2D game where you traverse the mind of a troubled man.
