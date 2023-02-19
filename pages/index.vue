@@ -182,6 +182,16 @@
       <div class="section-recognitions">
         <div class="text-title">Recognitions</div>
         <div class="recognition">
+          <div class="platform">GODLY</div>
+          <a
+            href="https://godly.website/website/157-flutterwave"
+            target="_blank"
+            class="award"
+          >
+            Featured website - Flutterwave Design website
+          </a>
+        </div>
+        <div class="recognition">
           <div class="platform">VAN SCHNEIDER's DESK Magazine</div>
           <a href="https://bit.ly/33ppEEQ" target="_blank" class="award"
             >Design in Nigeria (Pt. II) featuring Kolapo Oni</a
