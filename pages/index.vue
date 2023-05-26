@@ -204,7 +204,7 @@
         <div class="recognition">
           <div class="platform">GODLY</div>
           <a
-            href="https://godly.website/website/157-flutterwave"
+            href="https://godly.website/website/156-infringe"
             target="_blank"
             class="award"
           >
