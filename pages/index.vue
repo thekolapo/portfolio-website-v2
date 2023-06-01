@@ -45,7 +45,7 @@
               href="https://twitter.com/kolapo_/status/1494932120632020998"
               target="_blank"
               >bold new redesign</a
-            >. I also lead design and development of the
+            >. I lead design and development of the
             <a
               class="highlighted-text"
               href="https://flutterwave.com/blog"
@@ -59,7 +59,16 @@
               target="_blank"
             >
               Flutterwave Design website</a
-            >.
+            >. I also built the new
+            <a
+              class="highlighted-text"
+              href="https://flutterwave.com/pay/kolapo"
+              target="_blank"
+            >
+              Flutterwave payment link</a
+            >
+            which is used by thousands of people to receive payments across the
+            globe.
           </p>
         </div>
         <div class="project">
