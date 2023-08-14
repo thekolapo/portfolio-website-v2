@@ -35,17 +35,20 @@
             responsible for
             <a
               class="highlighted-text"
-              href="http://flutterwave.com/"
+              href="https://flutterwave.com/"
               target="_blank"
             >
               flutterwave.com</a
-            >. We recently launched a
+            >,
             <a
               class="highlighted-text"
-              href="https://twitter.com/kolapo_/status/1494932120632020998"
+              href="https://send.flutterwave.com/"
               target="_blank"
-              >bold new redesign</a
-            >. I lead design and development of the
+            >
+              send.flutterwave.com</a
+            >
+            and the entire web presence of the company. I lead design and
+            development of the
             <a
               class="highlighted-text"
               href="https://flutterwave.com/blog"
