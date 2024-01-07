@@ -6,8 +6,7 @@
         <div class="text-name">Kolapo Oni</div>
         <div class="text-about">
           I’m a Designer & Developer based in Lagos, Nigeria, with a passion for
-          interactive design, aesthetics & smooth UIs. I have objectively good
-          taste in
+          interactive design & aesthetics. I have objectively good taste in
           <a href="https://spoti.fi/2mnFoGN" target="_blank">music</a>, and I
           take great shots on
           <a href="https://vsco.co/thekolapo/gallery" target="_blank">VSCO</a>
