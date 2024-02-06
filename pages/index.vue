@@ -95,7 +95,7 @@
         </div>
         <div class="project">
           <a
-            href="http://www.danforadio.com/"
+            href="http://danfo-radio.netlify.app/"
             target="_blank"
             class="project__title"
             >03. Danfo Radio</a
@@ -122,28 +122,9 @@
             Portfolio of a content developer from Lagos, Nigeria.
           </p>
         </div>
-        <div class="project">
-          <a
-            href="https://ngvoices.surge.sh/"
-            target="_blank"
-            class="project__title"
-            >05. NG Voices</a
-          >
-          <p class="project__summary">
-            A website to spread awareness about the #EndSARS protest in Nigeria.
-            Built this site with
-            <a
-              href="http://onyekachi.com.ng/"
-              target="_blank"
-              class="highlighted-text"
-            >
-              Onyekachi</a
-            >.
-          </p>
-        </div>
         <div class="project project--company-work">
           <a class="project__title" href="https://paystack.com" target="_blank">
-            06. Paystack
+            05. Paystack
           </a>
           <p class="project__summary">
             I contracted for a short while with Paystack, where I worked with
@@ -161,6 +142,19 @@
               target="_blank"
               >Paystack Music</a
             >.
+          </p>
+        </div>
+        <div class="project">
+          <a
+            href="https://twitter.com/kolapo_/status/896677421243564033"
+            target="_blank"
+            class="project__title"
+            >06. Blue Bird AR</a
+          >
+          <p class="project__summary">
+            A marker-based Augmented Reality experiment where a little blue bird
+            flies around popping balloons. I built this with C# using Unity &
+            Vuforia.
           </p>
         </div>
         <div class="project">
