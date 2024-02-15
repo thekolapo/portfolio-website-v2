@@ -6,13 +6,13 @@
         <div class="text-name">Kolapo Oni</div>
         <div class="text-about">
           I’m a Designer & Developer based in Lagos, Nigeria, with a passion for
-          interactive design & aesthetics. I have objectively good taste in
-          <a href="https://spoti.fi/2mnFoGN" target="_blank">music</a>, and I
+          interactive design & aesthetics. I love
+          <a href="https://music.thekolapo.com" target="_blank">music</a>, and I
           take great shots on
           <a href="https://vsco.co/thekolapo/gallery" target="_blank">VSCO</a>
-          with my iPhone <span v-if="!isMobile">(mostly)</span> & Canon 600D. I
-          also curate niceties (majorly illustrations & interior design images)
-          on
+          with my iPhone <span v-if="!isMobile">(mostly)</span> & Canon camera.
+          I also curate niceties (majorly illustrations & interior design
+          images) on
           <a href="https://pinterest.com/kolapooni" target="_blank">Pinterest</a
           >. Currently, I work on the design team at
           <a href="https://flutterwave.design" target="_blank">Flutterwave</a>,
