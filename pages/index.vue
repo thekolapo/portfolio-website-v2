@@ -30,8 +30,7 @@
             01. Flutterwave
           </a>
           <p class="project__summary">
-            At Flutterwave, I work on the Web Experience team, which is
-            responsible for
+            At Flutterwave, I am on the Web Experience team, working on
             <a
               class="highlighted-text"
               href="https://flutterwave.com/"
@@ -45,23 +44,28 @@
               target="_blank"
             >
               send.flutterwave.com</a
-            >
-            and the entire web presence of the company. I lead design and
+            >, and the entire web presence of the company. I also led design and
             development of the
+            <a
+              class="highlighted-text"
+              href="https://flutterwave.com/careers"
+              target="_blank"
+            >
+              Flutterwave Careers microsite</a
+            >, the
             <a
               class="highlighted-text"
               href="https://flutterwave.com/blog"
               target="_blank"
               >Flutterwave Blog</a
-            >
-            and the
+            >, and the
             <a
               class="highlighted-text"
               href="https://flutterwave.design"
               target="_blank"
             >
               Flutterwave Design website</a
-            >. I also built the new
+            >. I built the new
             <a
               class="highlighted-text"
               href="https://flutterwave.com/pay/kolapo"
@@ -69,8 +73,8 @@
             >
               Flutterwave payment link</a
             >
-            which is used by thousands of people to receive payments across the
-            globe.
+            as well, which is used by thousands of people to receive payments
+            across the globe.
           </p>
         </div>
         <div class="project">
