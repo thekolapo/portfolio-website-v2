@@ -99,10 +99,22 @@
         </div>
         <div class="project">
           <a
+            href="https://happyfeetbook.com/"
+            target="_blank"
+            class="project__title"
+            >03. Happy Feet Book</a
+          >
+          <p class="project__summary">
+            The website for a book about two brothers navigating their passions
+            and life’s challenges.
+          </p>
+        </div>
+        <div class="project">
+          <a
             href="http://danfo-radio.netlify.app/"
             target="_blank"
             class="project__title"
-            >03. Danfo Radio</a
+            >04. Danfo Radio</a
           >
           <p class="project__summary">
             An online radio and web gallery. A collaboration between myself and
@@ -113,17 +125,6 @@
             >
               Yinka Bernie</a
             >.
-          </p>
-        </div>
-        <div class="project">
-          <a
-            href="https://adetomiwa.netlify.app/"
-            target="_blank"
-            class="project__title"
-            >04. Adetomiwa Isiaka</a
-          >
-          <p class="project__summary">
-            Portfolio of a content developer from Lagos, Nigeria.
           </p>
         </div>
         <div class="project project--company-work">
