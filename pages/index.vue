@@ -5,7 +5,7 @@
       <div class="section-name-about">
         <div class="text-name">Kolapo Oni</div>
         <div class="text-about">
-          I’m a Designer & Developer based in Lagos, Nigeria, with a passion for
+          I’m a Designer & Engineer based in Lagos, Nigeria, with a passion for
           interactive design & aesthetics. I love
           <a href="https://music.thekolapo.com" target="_blank">music</a>, and I
           take great shots on
