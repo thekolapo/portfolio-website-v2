@@ -80,10 +80,23 @@
         <div class="project">
           <a
             class="project__title"
+            href="https://wordguess.xyz/"
+            target="_blank"
+          >
+            02. Word Guess
+          </a>
+          <p class="project__summary">
+            A daily word puzzle game where you guess a 5-letter word given two
+            AI-generated hints.
+          </p>
+        </div>
+        <div class="project">
+          <a
+            class="project__title"
             href="https://music.thekolapo.com/"
             target="_blank"
           >
-            02. Spotify Now Playing
+            03. Spotify Now Playing
           </a>
           <p class="project__summary">
             A wee project that shows the song I'm currently listening to on
@@ -102,7 +115,7 @@
             href="https://happyfeetbook.com/"
             target="_blank"
             class="project__title"
-            >03. Happy Feet Book</a
+            >04. Happy Feet Book</a
           >
           <p class="project__summary">
             The website for a book about two brothers navigating their passions
@@ -114,7 +127,7 @@
             href="http://danfo-radio.netlify.app/"
             target="_blank"
             class="project__title"
-            >04. Danfo Radio</a
+            >05. Danfo Radio</a
           >
           <p class="project__summary">
             An online radio and web gallery. A collaboration between myself and
@@ -129,7 +142,7 @@
         </div>
         <div class="project project--company-work">
           <a class="project__title" href="https://paystack.com" target="_blank">
-            05. Paystack
+            06. Paystack
           </a>
           <p class="project__summary">
             I contracted for a short while with Paystack, where I worked with
@@ -154,7 +167,7 @@
             href="https://twitter.com/kolapo_/status/896677421243564033"
             target="_blank"
             class="project__title"
-            >06. Blue Bird AR</a
+            >07. Blue Bird AR</a
           >
           <p class="project__summary">
             A marker-based Augmented Reality experiment where a little blue bird
@@ -167,7 +180,7 @@
             href="https://2019.thekolapo.com/"
             target="_blank"
             class="project__title"
-            >07. 2019 Year in Review</a
+            >08. 2019 Year in Review</a
           >
           <p class="project__summary">My Year in Review for 2019.</p>
         </div>
@@ -176,7 +189,7 @@
             href="https://beautifulexperiences.netlify.app/"
             target="_blank"
             class="project__title"
-            >08. Beautiful Experiences</a
+            >09. Beautiful Experiences</a
           >
           <p class="project__summary">
             A curation of awesome web and interactive experiences.
@@ -187,7 +200,7 @@
             href="https://pong.thekolapo.com"
             target="_blank"
             class="project__title"
-            >09. Pong</a
+            >10. Pong</a
           >
           <p class="project__summary">A 2D WebGL pong game.</p>
         </div>
@@ -196,7 +209,7 @@
             href="https://fading.thekolapo.com"
             target="_blank"
             class="project__title"
-            >10. Fading</a
+            >11. Fading</a
           >
           <p class="project__summary">
             A minimalist 2D game where you traverse the mind of a troubled man.
