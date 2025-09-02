@@ -78,12 +78,21 @@
           </p>
         </div>
         <div class="project">
+          <a class="project__title" href="https://tealy.ai/" target="_blank">
+            02. Tealy
+          </a>
+          <p class="project__summary">
+            Tealy is an AI-powered internal search tool that helps teams
+            instantly find information across their workplace tools.
+          </p>
+        </div>
+        <div class="project">
           <a
             class="project__title"
             href="https://wordguess.xyz/"
             target="_blank"
           >
-            02. Word Guess
+            03. Word Guess
           </a>
           <p class="project__summary">
             A daily word puzzle game where you guess a 5-letter word given two
@@ -96,7 +105,7 @@
             href="https://www.lettersoflove.xyz/"
             target="_blank"
           >
-            03. Letters of Love
+            04. Letters of Love
           </a>
           <p class="project__summary">
             A web app for sending heartfelt letters to loved ones 💌
@@ -108,7 +117,7 @@
             href="https://music.thekolapo.com/"
             target="_blank"
           >
-            04. Spotify Now Playing
+            05. Spotify Now Playing
           </a>
           <p class="project__summary">
             A wee project that shows the song I'm currently listening to on
@@ -127,7 +136,7 @@
             href="https://happyfeetbook.com/"
             target="_blank"
             class="project__title"
-            >05. Happy Feet Book</a
+            >06. Happy Feet Book</a
           >
           <p class="project__summary">
             The website for a book about two brothers navigating their passions
@@ -139,7 +148,7 @@
             href="http://danfo-radio.netlify.app/"
             target="_blank"
             class="project__title"
-            >06. Danfo Radio</a
+            >07. Danfo Radio</a
           >
           <p class="project__summary">
             An online radio and web gallery. A collaboration between myself and
@@ -154,7 +163,7 @@
         </div>
         <div class="project project--company-work">
           <a class="project__title" href="https://paystack.com" target="_blank">
-            07. Paystack
+            08. Paystack
           </a>
           <p class="project__summary">
             I contracted for a short while with Paystack, where I worked with
@@ -179,7 +188,7 @@
             href="https://twitter.com/kolapo_/status/896677421243564033"
             target="_blank"
             class="project__title"
-            >08. Blue Bird AR</a
+            >09. Blue Bird AR</a
           >
           <p class="project__summary">
             A marker-based Augmented Reality experiment where a little blue bird
@@ -192,7 +201,7 @@
             href="https://2019.thekolapo.com/"
             target="_blank"
             class="project__title"
-            >09. 2019 Year in Review</a
+            >10. 2019 Year in Review</a
           >
           <p class="project__summary">My Year in Review for 2019.</p>
         </div>
@@ -201,7 +210,7 @@
             href="https://beautifulexperiences.netlify.app/"
             target="_blank"
             class="project__title"
-            >10. Beautiful Experiences</a
+            >11. Beautiful Experiences</a
           >
           <p class="project__summary">
             A curation of awesome web and interactive experiences.
@@ -212,7 +221,7 @@
             href="https://pong.thekolapo.com"
             target="_blank"
             class="project__title"
-            >11. Pong</a
+            >12. Pong</a
           >
           <p class="project__summary">A 2D WebGL pong game.</p>
         </div>
@@ -221,7 +230,7 @@
             href="https://fading.thekolapo.com"
             target="_blank"
             class="project__title"
-            >12. Fading</a
+            >13. Fading</a
           >
           <p class="project__summary">
             A minimalist 2D game where you traverse the mind of a troubled man.
