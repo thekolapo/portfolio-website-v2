@@ -48,23 +48,24 @@
             development of the
             <a
               class="highlighted-text"
-              href="https://flutterwave.com/careers"
+              href="https://flutterwave.com/us/careers"
               target="_blank"
             >
               Flutterwave Careers microsite</a
             >, the
             <a
               class="highlighted-text"
-              href="https://flutterwave.com/blog"
-              target="_blank"
-              >Flutterwave Blog</a
-            >, and the
-            <a
-              class="highlighted-text"
               href="https://flutterwave.design"
               target="_blank"
             >
               Flutterwave Design website</a
+            >
+            and built
+            <a
+              class="highlighted-text"
+              href="https://flutterwave.com/ng/bank"
+              target="_blank"
+              >Flutterwave MFB</a
             >. I built the new
             <a
               class="highlighted-text"
