@@ -59,8 +59,7 @@
               target="_blank"
             >
               Flutterwave Design website</a
-            >
-            and built
+            >, and built
             <a
               class="highlighted-text"
               href="https://flutterwave.com/ng/bank"
