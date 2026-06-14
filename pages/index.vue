@@ -24,7 +24,7 @@
         <div class="project project--company-work">
           <a
             class="project__title"
-            href="https://flutterwave.com"
+            href="https://flutterwave.com/ng"
             target="_blank"
           >
             01. Flutterwave
@@ -33,7 +33,7 @@
             At Flutterwave, I am on the Web Experience team, working on
             <a
               class="highlighted-text"
-              href="https://flutterwave.com/"
+              href="https://flutterwave.com/ng"
               target="_blank"
             >
               flutterwave.com</a
@@ -48,7 +48,7 @@
             development of the
             <a
               class="highlighted-text"
-              href="https://flutterwave.com/us/careers"
+              href="https://flutterwave.com/ng/careers"
               target="_blank"
             >
               Flutterwave Careers microsite</a
